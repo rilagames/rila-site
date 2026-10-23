@@ -5,7 +5,7 @@ permalink: /cloak-disp/
 parent: Special Items
 ---
 # Cloak of Displacement
-![Level](/assets/img/cloak_disp.png "Disp Cloak")
+![Level]({{ '/assets/img/cloak_disp.png' | relative_url }} "Disp Cloak")
 
 |Armor|Level Requirement
 |-|--|

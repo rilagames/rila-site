@@ -5,9 +5,9 @@ permalink: /gloves-hercules/
 parent: Special Items
 ---
 # Gloves of Hercules
-![Level](/assets/img/gloves_hercules.png "Gloves of Hercules")
-![Level](/assets/img/gloves_hercules_1.png "Gloves of Hercules")
-![Level](/assets/img/gloves_hercules_2.png "Gloves of Hercules")
+![Level]({{ '/assets/img/gloves_hercules.png' | relative_url }} "Gloves of Hercules")
+![Level]({{ '/assets/img/gloves_hercules_1.png' | relative_url }} "Gloves of Hercules")
+![Level]({{ '/assets/img/gloves_hercules_2.png' | relative_url }} "Gloves of Hercules")
 
 
 |Extra Damage|Level Requirement

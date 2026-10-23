@@ -8,10 +8,10 @@ nav_order: 7
 
 
 
-![Level](/assets/img/party_system.png "Party")
-![Level](/assets/img/partyfinder.gif "Party")
-![Level](/assets/img/party_exp.png "Party")
-![Level](/assets/img/party_exp1.png "Party")
+![Level]({{ '/assets/img/party_system.png' | relative_url }} "Party")
+![Level]({{ '/assets/img/partyfinder.gif' | relative_url }} "Party")
+![Level]({{ '/assets/img/party_exp.png' | relative_url }} "Party")
+![Level]({{ '/assets/img/party_exp1.png' | relative_url }} "Party")
 
 NOTE
 {: .label .label-red }

@@ -1,0 +1,66 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    permissions:
+      contents: read
+      pages: read
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure Pages
+        id: pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler: '2.2.16'
+      - name: Install dependencies
+        run: |
+          for site in uo-jekyll uo-wiki; do
+            (cd "$site" && bundle install)
+          done
+      - name: Build both sites
+        env:
+          JEKYLL_ENV: production
+          PAGES_BASE_PATH: ${{ github.event_name == 'pull_request' && format('/{0}', github.event.repository.name) || steps.pages.outputs.base_path }}
+          PAGES_ORIGIN: ${{ steps.pages.outputs.origin || format('https://{0}.github.io', github.repository_owner) }}
+        run: |
+          printf 'aux_links:\n  "Back to Rila UO Web":\n    - "%s/"\n' "$PAGES_BASE_PATH" > "$RUNNER_TEMP/wiki-pages.yml"
+          (cd uo-jekyll && bundle exec jekyll build --baseurl "$PAGES_BASE_PATH" --url "$PAGES_ORIGIN" --destination "$GITHUB_WORKSPACE/_pages")
+          (cd uo-wiki && bundle exec jekyll build --config "_config.yml,$RUNNER_TEMP/wiki-pages.yml" --baseurl "$PAGES_BASE_PATH/wiki" --url "$PAGES_ORIGIN" --destination "$GITHUB_WORKSPACE/_pages/wiki")
+          touch _pages/.nojekyll
+          test -s _pages/index.html
+          test -s _pages/wiki/index.html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _pages
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

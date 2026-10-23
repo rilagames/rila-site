@@ -5,8 +5,8 @@ permalink: /new-player-helper/
 nav_order: 2
 ---
 # New Player Helper
-![Question](/assets/img/newplayerhelper.png "Helper")
-![Question](/assets/img/question.gif "Helper")
+![Question]({{ '/assets/img/newplayerhelper.png' | relative_url }} "Helper")
+![Question]({{ '/assets/img/question.gif' | relative_url }} "Helper")
 
 ```
 There is a little question mark on some of the menus you have seen. 

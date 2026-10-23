@@ -5,7 +5,7 @@ permalink: /boots-zeus/
 parent: Special Items
 ---
 # Zeus' Boots
-![Level](/assets/img/boots_zeus.png "Zeus' Boots")
+![Level]({{ '/assets/img/boots_zeus.png' | relative_url }} "Zeus' Boots")
 
 |Str|Level Requirement
 |-|--|

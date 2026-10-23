@@ -5,7 +5,7 @@ permalink: /vampiric-armor/
 parent: Armors
 ---
 # Vampiric Armor
-![Level](/assets/img/armor_vampiric.png "Vampiric Armor")
+![Level]({{ '/assets/img/armor_vampiric.png' | relative_url }} "Vampiric Armor")
 
 |Armor|Level Requirement
 |-|--|

@@ -21,7 +21,7 @@ Armor system is very different from original Ultima Online.
 
 ```
 
-![Question](/assets/img/newarmors.gif "Armors")
+![Question]({{ '/assets/img/newarmors.gif' | relative_url }} "Armors")
 
 
 NOTE

@@ -5,7 +5,7 @@ permalink: /acid-armor/
 parent: Armors
 ---
 # Acid Armor
-![Level](/assets/img/armor_acid.png "Acid Armor")
+![Level]({{ '/assets/img/armor_acid.png' | relative_url }} "Acid Armor")
 
 |Armor|Level Requirement
 |-|--|

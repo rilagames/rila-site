@@ -5,7 +5,7 @@ permalink: /angel-armor/
 parent: Armors
 ---
 # Angel Armor
-![Level](/assets/img/armor_angel.png "Angel Armor")
+![Level]({{ '/assets/img/armor_angel.png' | relative_url }} "Angel Armor")
 
 |Armor|Level Requirement
 |-|--|

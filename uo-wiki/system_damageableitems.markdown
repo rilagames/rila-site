@@ -6,7 +6,7 @@ nav_order: 5
 ---
 # Damageable Items
 
-![Level](/assets/img/damagedarmors.gif "Damageable Items")
+![Level]({{ '/assets/img/damagedarmors.gif' | relative_url }} "Damageable Items")
 
 NOTE
 {: .label .label-red }

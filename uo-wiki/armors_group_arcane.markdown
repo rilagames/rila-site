@@ -5,7 +5,7 @@ permalink: /arcane-armor/
 parent: Armors
 ---
 # Arcane Armor
-![Level](/assets/img/armor_arcane.png "Arcane Armor")
+![Level]({{ '/assets/img/armor_arcane.png' | relative_url }} "Arcane Armor")
 
 |Armor|Level Requirement
 |-|--|

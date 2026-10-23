@@ -5,7 +5,7 @@ permalink: /holy-katana/
 parent: Weapons
 ---
 # Holy Weapons
-![Level](/assets/img/weapons_holy.png "Holy Katana")
+![Level]({{ '/assets/img/weapons_holy.png' | relative_url }} "Holy Katana")
 
 |Weapon  |Damage|Level Requirement
 |-|--|

@@ -5,7 +5,7 @@ permalink: /flame-armor/
 parent: Armors
 ---
 # Flame Armor
-![Level](/assets/img/armor_flame.png "Flame Armor")
+![Level]({{ '/assets/img/armor_flame.png' | relative_url }} "Flame Armor")
 
 |Armor|Level Requirement
 |-|--|

@@ -6,8 +6,8 @@ nav_order: 8
 ---
 # Mounts
 
-![Level](/assets/img/newmounts.gif "Mounts")
-![Level](/assets/img/newmounts.png "Mounts")
+![Level]({{ '/assets/img/newmounts.gif' | relative_url }} "Mounts")
+![Level]({{ '/assets/img/newmounts.png' | relative_url }} "Mounts")
 
 NOTE
 {: .label .label-red }

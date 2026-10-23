@@ -5,7 +5,7 @@ permalink: /devil-weapons/
 parent: Weapons
 ---
 # Devil Weapons
-![Level](/assets/img/weapons_devil.png "Devil Weapons")
+![Level]({{ '/assets/img/weapons_devil.png' | relative_url }} "Devil Weapons")
 
 |Weapon  |Damage|Level Requirement
 |-|--|

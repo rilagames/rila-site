@@ -5,7 +5,7 @@ permalink: /boots-khalims/
 parent: Special Items
 ---
 # Khalim's Boots
-![Level](/assets/img/boots_khalim.png "Khalim's Boots")
+![Level]({{ '/assets/img/boots_khalim.png' | relative_url }} "Khalim's Boots")
 
 |Dex|Level Requirement
 |-|--|

@@ -1,0 +1,7 @@
+title: Rila UO
+url: "https://rilagames.github.io"
+baseurl: "/rila-site"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - firebase.json

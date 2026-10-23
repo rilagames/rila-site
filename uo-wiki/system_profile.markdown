@@ -6,8 +6,8 @@ nav_order: 7
 ---
 # Player Profile
 
-![Level](/assets/img/profile.png "Player Profile")
-![Level](/assets/img/profile2.png "Player Profile")
+![Level]({{ '/assets/img/profile.png' | relative_url }} "Player Profile")
+![Level]({{ '/assets/img/profile2.png' | relative_url }} "Player Profile")
 
 
 NOTE

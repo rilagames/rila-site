@@ -5,7 +5,7 @@ permalink: /heaven-Weapons/
 parent: Weapons
 ---
 # Heaven Weapons
-![Level](/assets/img/weapons_heaven.png "Heaven Weapons")
+![Level]({{ '/assets/img/weapons_heaven.png' | relative_url }} "Heaven Weapons")
 
 |Weapon  |Damage|Level Requirement
 |-|--|

@@ -5,7 +5,7 @@ permalink: /devil-warrior/
 parent: Monsters
 ---
 # Devil Warrior
-![Level](/assets/img/warrior_devil.png "Devil Warrior")
+![Level]({{ '/assets/img/warrior_devil.png' | relative_url }} "Devil Warrior")
 
 |Str|Level|Experience
 |-|--|

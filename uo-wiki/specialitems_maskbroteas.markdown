@@ -5,7 +5,7 @@ permalink: /mask-broteas/
 parent: Special Items
 ---
 # Mask of Broteas
-![Level](/assets/img/mask_broteas.png "Mask of Broteas")
+![Level]({{ '/assets/img/mask_broteas.png' | relative_url }} "Mask of Broteas")
 
 |Dex|Level Requirement
 |-|--|

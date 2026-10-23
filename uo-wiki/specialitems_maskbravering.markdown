@@ -5,7 +5,7 @@ permalink: /mask-bravering/
 parent: Special Items
 ---
 # Mask of Bravering
-![Level](/assets/img/mask_bravering.png "Mask of Bravering")
+![Level]({{ '/assets/img/mask_bravering.png' | relative_url }} "Mask of Bravering")
 
 |Str|Level Requirement
 |-|--|

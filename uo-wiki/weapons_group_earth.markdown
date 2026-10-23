@@ -5,7 +5,7 @@ permalink: /earth-weapons/
 parent: Weapons
 ---
 # Earth Weapons
-![Level](/assets/img/weapons_earth.png "Earth Weapons")
+![Level]({{ '/assets/img/weapons_earth.png' | relative_url }} "Earth Weapons")
 
 |Weapon  |Damage|Level Requirement
 |-|--|

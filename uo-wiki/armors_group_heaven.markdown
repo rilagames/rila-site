@@ -5,7 +5,7 @@ permalink: /heaven-armor/
 parent: Armors
 ---
 # Heaven Armor
-![Level](/assets/img/armor_heaven.png "Heaven Armor")
+![Level]({{ '/assets/img/armor_heaven.png' | relative_url }} "Heaven Armor")
 
 |Armor|Level Requirement
 |-|--|

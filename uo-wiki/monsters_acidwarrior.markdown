@@ -5,7 +5,7 @@ permalink: /acid-warrior/
 parent: Monsters
 ---
 # Acid Warrior
-![Level](/assets/img/warrior_acid.png "Acid Warrior")
+![Level]({{ '/assets/img/warrior_acid.png' | relative_url }} "Acid Warrior")
 
 |Str|Level|Experience
 |-|--|

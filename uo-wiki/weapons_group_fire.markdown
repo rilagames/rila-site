@@ -5,7 +5,7 @@ permalink: /fire-weapons/
 parent: Weapons
 ---
 # Fire Weapons
-![Level](/assets/img/weapons_fire.png "Fire Weapons")
+![Level]({{ '/assets/img/weapons_fire.png' | relative_url }} "Fire Weapons")
 
 |Weapon  |Damage|Level Requirement
 |-|--|

@@ -5,7 +5,7 @@ permalink: /devil-armor/
 parent: Armors
 ---
 # Devil Armor
-![Level](/assets/img/armor_devil.png "Devil Armor")
+![Level]({{ '/assets/img/armor_devil.png' | relative_url }} "Devil Armor")
 
 |Armor|Level Requirement
 |-|--|

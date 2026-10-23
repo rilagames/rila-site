@@ -5,7 +5,7 @@ permalink: /angel-weapons/
 parent: Weapons
 ---
 # Angel Weapons
-![Level](/assets/img/weapons_angel.png "Angel Weapons")
+![Level]({{ '/assets/img/weapons_angel.png' | relative_url }} "Angel Weapons")
 
 |Weapon  |Damage|Level Requirement
 |-|--|

@@ -5,7 +5,7 @@ permalink: /lifedrain-weapons/
 parent: Weapons
 ---
 # Lifedrain Weapons
-![Level](/assets/img/weapons_lifedrain.png "Lifedrain Weapons")
+![Level]({{ '/assets/img/weapons_lifedrain.png' | relative_url }} "Lifedrain Weapons")
 
 |Weapon  |Damage|Level Requirement|
 |-|--|

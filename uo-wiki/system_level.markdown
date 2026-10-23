@@ -6,8 +6,8 @@ nav_order: 1
 ---
 # Level System
 
-![Level](/assets/img/levelsystem.png "Level")
-![Level bar](/assets/img/levelbar.png "Level Bar")
+![Level]({{ '/assets/img/levelsystem.png' | relative_url }} "Level")
+![Level bar]({{ '/assets/img/levelbar.png' | relative_url }} "Level Bar")
 
 NOTE
 {: .label .label-red }

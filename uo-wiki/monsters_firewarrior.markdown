@@ -5,7 +5,7 @@ permalink: /fire-warrior/
 parent: Monsters
 ---
 # Fire Warrior
-![Level](/assets/img/warrior_fire.png "Fire Warrior")
+![Level]({{ '/assets/img/warrior_fire.png' | relative_url }} "Fire Warrior")
 
 |Str|Level|Experience
 |-|--|

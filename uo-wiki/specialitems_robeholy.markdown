@@ -5,8 +5,8 @@ permalink: /robe-holy/
 parent: Special Items
 ---
 # Holy Robe
-![Level](/assets/img/robe_holy.png "Holy Robe")
-![Level](/assets/img/robe_holy1.png "Holy Robe")
+![Level]({{ '/assets/img/robe_holy.png' | relative_url }} "Holy Robe")
+![Level]({{ '/assets/img/robe_holy1.png' | relative_url }} "Holy Robe")
 
 |Dex|Str|Level Requirement
 |-|--|

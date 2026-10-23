@@ -5,7 +5,7 @@ permalink: /arcane-warrior/
 parent: Monsters
 ---
 # Arcane Warrior
-![Level](/assets/img/warrior_arcane.png "Arcane Warrior")
+![Level]({{ '/assets/img/warrior_arcane.png' | relative_url }} "Arcane Warrior")
 
 |Str|Level|Experience
 |-|--|

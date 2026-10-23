@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <!doctype html>
 <html lang="en">
 <head>
@@ -11,7 +14,7 @@
 	<script>
 	  function redirect() {
 		setTimeout(function(){ 
-				window.location.replace("/");
+				window.location.replace({{ "/" | relative_url | jsonify }});
 			}
 			, 100);	
 		}

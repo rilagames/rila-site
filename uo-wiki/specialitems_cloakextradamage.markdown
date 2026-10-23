@@ -5,7 +5,7 @@ permalink: /cloak-extradamage/
 parent: Special Items
 ---
 # Cloak of Extra Damage
-![Level](/assets/img/cloak_extradamage.png "Extra Damage Cloak")
+![Level]({{ '/assets/img/cloak_extradamage.png' | relative_url }} "Extra Damage Cloak")
 
 |Armor|Level Requirement
 |-|--|

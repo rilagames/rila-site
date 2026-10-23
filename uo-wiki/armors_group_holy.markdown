@@ -5,7 +5,7 @@ permalink: /holy-armor/
 parent: Armors
 ---
 # Holy Armor
-![Level](/assets/img/armor_holy.png "Holy Armor")
+![Level]({{ '/assets/img/armor_holy.png' | relative_url }} "Holy Armor")
 
 |Armor|Level Requirement
 |-|--|

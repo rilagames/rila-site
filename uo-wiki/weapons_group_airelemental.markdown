@@ -5,7 +5,7 @@ permalink: /air-elemental/
 parent: Weapons
 ---
 # Air Elemental Weapons
-![Level](/assets/img/weapons_air.png "Air Elemental Weapons")
+![Level]({{ '/assets/img/weapons_air.png' | relative_url }} "Air Elemental Weapons")
 
 |Weapon  |Damage|
 |-|--|

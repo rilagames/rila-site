@@ -5,7 +5,7 @@ permalink: /vampiric-warrior/
 parent: Monsters
 ---
 # Vampiric Warrior
-![Level](/assets/img/warrior_vampiric.png "Vampiric Warrior")
+![Level]({{ '/assets/img/warrior_vampiric.png' | relative_url }} "Vampiric Warrior")
 
 |Str|Level|Experience
 |-|--|

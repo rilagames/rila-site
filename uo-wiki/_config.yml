@@ -22,8 +22,8 @@ title: RILA UO WIKI
 email: your-email@example.com
 description:  # this means to ignore newlines until "baseurl:"
   Rila Ultima Online Level shard | RilaUO.com | wiki.RilaUO.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/rila-site/wiki" # the subpath of your site, e.g. /blog
+url: "https://rilagames.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 footer_content: "Copyright &copy; 2021 wiki.rilauo.com</a>"
@@ -33,4 +33,9 @@ color_scheme: dark
 logo: "/assets/img/logo.png"
 aux_links:
   "Back to Rila UO Web":
-    - "https://rilauo.com"
+    - "/rila-site/"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - firebase.json
+  - public

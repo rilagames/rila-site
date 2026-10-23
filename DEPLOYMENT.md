@@ -1,0 +1,33 @@
+# GitHub Pages
+
+The GitHub Actions workflow builds both Jekyll projects and publishes one Pages artifact:
+
+- Main site: https://rilagames.github.io/rila-site/
+- Wiki: https://rilagames.github.io/rila-site/wiki/
+
+## First deployment
+
+1. Open repository **Settings → Pages** and select **GitHub Actions** as the build source.
+2. Merge the Pages changes into `main`. The **GitHub Pages** workflow builds and deploys the site. Later pushes to `main` deploy automatically; pull requests only build.
+3. Check the workflow's deployment URL after the `deploy` job succeeds.
+
+This repository is private. GitHub Pages for a private repository requires an eligible GitHub plan. A standard Pages deployment can be publicly accessible even when its source repository is private. Do not change repository visibility just to enable hosting without reviewing that decision.
+
+The workflow gets the production URL and base path from GitHub Pages. It places the wiki under `/wiki` and overrides its return link to point to the main site. No Firebase command is needed for this deployment.
+
+## Local build
+
+Use Ruby 3.1 and Bundler 2.2.16, matching the workflow:
+
+```sh
+cd uo-jekyll
+bundle install
+bundle exec jekyll build --destination ../_pages
+cd ../uo-wiki
+bundle install
+bundle exec jekyll build --destination ../_pages/wiki
+```
+
+The checked-in configs use the project paths shown above. To preview the main site with Jekyll, run `bundle exec jekyll serve` from `uo-jekyll`; preview the wiki separately from `uo-wiki`. Do not commit `_pages` output.
+
+Existing Firebase configurations remain in the repository. They need their own URL/base-path overrides if used again, because the default configs now target GitHub Pages.

@@ -5,7 +5,7 @@ permalink: /arcane-weapons/
 parent: Weapons
 ---
 # Arcane Weapons
-![Level](/assets/img/weapons_arcane.png "Arcane Weapons")
+![Level]({{ '/assets/img/weapons_arcane.png' | relative_url }} "Arcane Weapons")
 
 |Weapon  |Damage|Level Requirement
 |-|--|

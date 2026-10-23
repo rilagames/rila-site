@@ -5,7 +5,7 @@ permalink: /Earth-warrior/
 parent: Monsters
 ---
 # Earth Warrior
-![Level](/assets/img/warrior_earth.png "Earth Warrior")
+![Level]({{ '/assets/img/warrior_earth.png' | relative_url }} "Earth Warrior")
 
 |Str|Level|Experience
 |-|--|

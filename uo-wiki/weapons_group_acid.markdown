@@ -5,7 +5,7 @@ permalink: /acid-weapons/
 parent: Weapons
 ---
 # Acid Weapons
-![Level](/assets/img/weapons_acid.png "Acid Weapons")
+![Level]({{ '/assets/img/weapons_acid.png' | relative_url }} "Acid Weapons")
 
 |Weapon  |Damage|
 |-|--|
