@@ -41,9 +41,8 @@ jobs:
           PAGES_ORIGIN: ${{ steps.pages.outputs.origin || format('https://{0}.github.io', github.repository_owner) }}
         run: |
           printf 'url: "%s"\n' "$PAGES_ORIGIN" > "$RUNNER_TEMP/pages-url.yml"
-          printf 'aux_links:\n  "Back to Rila UO Web":\n    - "%s/"\n' "$PAGES_BASE_PATH" > "$RUNNER_TEMP/wiki-pages.yml"
           (cd uo-jekyll && bundle exec jekyll build --config "_config.yml,$RUNNER_TEMP/pages-url.yml" --baseurl "$PAGES_BASE_PATH" --destination "$GITHUB_WORKSPACE/_pages")
-          (cd uo-wiki && bundle exec jekyll build --config "_config.yml,$RUNNER_TEMP/pages-url.yml,$RUNNER_TEMP/wiki-pages.yml" --baseurl "$PAGES_BASE_PATH/wiki" --destination "$GITHUB_WORKSPACE/_pages/wiki")
+          (cd uo-wiki && bundle exec jekyll build --config "_config.yml,$RUNNER_TEMP/pages-url.yml" --baseurl "$PAGES_BASE_PATH/wiki" --destination "$GITHUB_WORKSPACE/_pages/wiki")
           touch _pages/.nojekyll
           test -s _pages/index.html
           test -s _pages/wiki/index.html

@@ -28,3 +28,5 @@ bundle exec jekyll build --destination ../_pages/wiki
 ```
 
 The checked-in configs use the project paths shown above. To preview the main site with Jekyll, run `bundle exec jekyll serve` from `uo-jekyll`; preview the wiki separately from `uo-wiki`. Do not commit `_pages` output.
+
+The wiki uses its own layouts and navigation, with shared main-site CSS, logo and textures. Preview the merged `_pages` directory to see both sites together; serving the wiki alone will not serve those main-site assets. Wiki search is built from the Markdown pages into `search-index.json`.
