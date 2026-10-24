@@ -1,101 +1,80 @@
 ---
-title: Rila UO
-main_paragraph: 
+title: Rila UO | Ultima Online Level Shard
 ---
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
-    <title>{{page.title}}</title>
-  </head>
-  <body>
-    <style>
-        body {
-            background-color: #2c2f33;
-            color: #99aab5;
-            font-family: Tahoma;
-        }
-        a {
-            color: #FFFFFF;
-        }
-        a:hover {
-            color: #FFFFFF;
-        }
-        .menu-item {
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-		.card {
-			background: #383c42;
-			border-radius: 10px;
-		}
-		.card-content{
-			padding: 15px;
-		}
-		.row-container {
-			margin-bottom: 15px
-		}
-    </style>
-
-
-    <div class="container-fluid">
-        <div class="row row-container">
-            <div class="col-lg-3"></div>
-            <div class="col-lg-6">
-                <div class="text-center">
-                    <img src="{{ '/assets/imgs/logo.png' | relative_url }}" alt="rila logo">
-                </div>
-                
-                <div class="text-center menu-container card">
-				<div class="card-content">
-				<a target="_blank" href="{{ '/wiki/' | relative_url }}" class="menu-item">Wiki</a>
-                    <a href="" class="menu-item">How to connect</a>
-                    <a target="_blank" href="https://discord.gg/AyeAPKcMaV" class="menu-item">Discord</a>
-                    <a target="_blank" href="https://twitter.com/rilauo" class="menu-item">Twitter</a></div>
-                    
-                </div>
-
-                
-            </div>
-            <div class="col-lg-3"></div>
-
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rila is an independent Ultima Online level shard. Explore 50 levels, three tiers, custom equipment and a different ruleset. Free to play, with no pay to win.">
+  <meta name="theme-color" content="#141613">
+  <title>{{ page.title }}</title>
+  <link rel="icon" type="image/png" href="{{ '/assets/imgs/logo.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/rila.css' | relative_url }}">
+  <script src="{{ '/assets/js/rila.js' | relative_url }}" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Rila UO home"><img src="{{ '/wiki/assets/img/logo.png' | relative_url }}" width="270" height="50" alt="Rila UO"></a>
+    <nav aria-label="Main navigation"><a href="#world">The world</a><a href="#armory">Armory</a><a href="{{ '/wiki/' | relative_url }}">Wiki <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></nav>
+    <a class="header-join" href="https://discord.gg/AyeAPKcMaV" target="_blank" rel="noopener noreferrer">Join Discord <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-cross" aria-hidden="true">✦</span> Ultima Online · Level shard</p>
+        <h1 id="hero-title">Ultima Online.<br><em>The Rila ruleset.</em></h1>
+        <p class="hero-description">Fifty levels. Three tiers. Equipment worth hunting for.<br class="desktop-break"> An independent shard built around a different way to play Ultima Online.</p>
+        <div class="hero-actions"><a class="button" href="#connect">Connection details <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a><a class="text-link" href="{{ '/wiki/' | relative_url }}">Read the wiki <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+        <p class="hero-note">Free to play. No pay to win.</p>
+      </div>
+      <div class="hero-art" aria-label="Original Rila armor artwork">
+        <div class="art-topline"><span>From the Rila armory</span><span>Armor collection</span></div>
+        <div class="specimen-stage">
+          <span class="specimen-word" aria-hidden="true">ARMORY</span>
+          <img class="armor-side armor-left" src="{{ '/wiki/assets/img/armor_fire.png' | relative_url }}" width="103" height="194" alt="Fire armor">
+          <img class="armor-main" src="{{ '/wiki/assets/img/armor_vampiric.png' | relative_url }}" width="117" height="194" alt="Vampiric armor">
+          <img class="armor-side armor-right" src="{{ '/wiki/assets/img/armor_arcane.png' | relative_url }}" width="108" height="190" alt="Arcane armor">
         </div>
-		<div class="row row-container">
-            <div class="col-lg-3"></div>
-            <div class="col-xs-12 col-lg-4">
-				<div class="card">
-					<div class="card-content">
-						Rila UO is the latest Ultima Online shard created with the inspirations of Bee-Pk and many others. I have created all scripts from scratch on my own. Rila looks like it is based on Bee-Pk but there is just similarities. In fact it is based on <b>my imagination</b>. I am the only developer in this project, but i am taking outside helps. I am going to thank to my greatest helpers in credits page at future. 
-						<p>Let me share some details and give some words to you. Rila UO will never be "Pay to win". It will always free to play. There will be tons of boss fights, pvp opportunities as you predict. But there will be huge playing area for crafts and traders. </p>
-						<p>Just sit back, check our twitter and wiki pages, join us on discord. <br>Forget ordinary Ultima Online rulesets and let me <b>dare mighty things!</b></p>
-					</div> 
-				</div>
-			</div>
-			<div class="col-xs-12 col-lg-2">
-				<div class="card"><p class="card-content"> Server Type: Level <br>Login: play.rilauo.com , 2593 <br>Server Status: On Development</p> </div>
-			</div>
-			<div class="col-lg-3"></div>
-		</div>
-		<div class="row" style="margin-top: 20">
-            <div class="col-lg-3"></div>
-            <div class="col-lg-6">
-				<div class="text-center" style="font-size: smaller;">
-					<div class="card">
-						<div class="card-content" style="padding-top: 8px; padding-bottom: 8px;">
-							Copyright © 2021 rilauo.com
-						</div>
-					</div>					
-				</div>
-            </div>
-            <div class="col-lg-3"></div>
-
+        <div class="art-caption"><span>Vampiric armor</span><span>Life drain / 300 armor</span></div>
+      </div>
+    </section>
+    <div class="world-strip"><div class="wrap strip-inner"><span class="strip-label">The ruleset</span><span><b>50</b> levels</span><span><b>03</b> tiers</span><span><b>Custom</b> equipment</span><span><b>Free</b> to play</span></div></div>
+    <section id="world" class="world-section wrap" aria-labelledby="world-title">
+      <div class="section-heading"><p class="eyebrow">01 / The world</p><h2 id="world-title">Levels, equipment and party play.</h2></div>
+      <div class="world-layout">
+        <div class="world-intro"><p>Rila takes the familiar world of Ultima Online and gives it its own progression, equipment and combat systems.</p><p>Hunt for your next armor set, find a party, or make your living through crafting and trade. The wiki keeps the details in one place.</p><a class="text-link" href="{{ '/wiki/' | relative_url }}">Explore the ruleset <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+        <div class="system-list">
+          <a href="{{ '/wiki/level-system/' | relative_url }}"><span class="system-number">I.</span><div><h3>50 levels, three tiers</h3><p>Earn experience across 50 levels and advance through three tiers.</p></div><span class="row-arrow"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a>
+          <a href="{{ '/wiki/Weapons/' | relative_url }}"><span class="system-number">II.</span><div><h3>Elemental weapons and armor</h3><p>Elemental weapons, armor effects and level requirements shape your build.</p></div><span class="row-arrow"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a>
+          <a href="{{ '/wiki/party-system/' | relative_url }}"><span class="system-number">III.</span><div><h3>Shared experience and party finder</h3><p>Share experience and use the party finder to find your next group.</p></div><span class="row-arrow"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a>
         </div>
-    </div>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-  </body>
+      </div>
+    </section>
+    <section class="creatures-section wrap" aria-labelledby="creatures-title">
+      <div class="creatures-image"><img src="{{ '/wiki/assets/img/newmounts.png' | relative_url }}" width="379" height="288" loading="lazy" alt="Rila mounts including a dragon, beetle, unicorn and armored horse"></div>
+      <div class="creatures-copy"><p class="eyebrow">Inside Rila</p><h2 id="creatures-title">Ethereal mounts.</h2><p>Ride a beetle, a unicorn or an armored horse. Rila’s mounts are ethereal, and some give bonus stats while you ride.</p><div class="creature-links"><a class="text-link" href="{{ '/wiki/mounts/' | relative_url }}">Mounts <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a><a class="text-link" href="{{ '/wiki/special-items/' | relative_url }}">Special items <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></div>
+    </section>
+    <section id="armory" class="armory-section" aria-labelledby="armory-title"><div class="wrap">
+      <div class="section-heading armory-heading"><div><p class="eyebrow">02 / The armory</p><h2 id="armory-title">Three sets from the armory.</h2></div><a class="text-link" href="{{ '/wiki/Armors/' | relative_url }}">All armor sets <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+      <div class="armory-layout">
+        <div class="armor-choices" aria-label="Choose an armor set">
+          <button type="button" class="armor-choice is-active" aria-pressed="true" data-armor="vampiric"><span>01</span><span>Vampiric</span><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></button>
+          <button type="button" class="armor-choice" aria-pressed="false" data-armor="fire"><span>02</span><span>Fire</span><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></button>
+          <button type="button" class="armor-choice" aria-pressed="false" data-armor="arcane"><span>03</span><span>Arcane</span><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></button>
+          <p class="armory-footnote">Original in-game artwork.<br>Stats and effects from the Rila wiki.</p>
+        </div>
+        <div class="armor-display"><span class="display-mark" aria-hidden="true">EQUIPMENT</span><img id="selected-armor" src="{{ '/wiki/assets/img/armor_vampiric.png' | relative_url }}" width="117" height="194" alt="Vampiric armor" data-asset-root="{{ '/wiki/assets/img/' | relative_url }}"></div>
+        <div class="armor-details" aria-live="polite" aria-atomic="true"><p class="eyebrow">Armor / Field notes</p><h3 id="armor-name">Vampiric armor</h3><p id="armor-effect">Life drain.</p><dl><div><dt>Armor</dt><dd id="armor-value">300</dd></div><div><dt>Level required</dt><dd>01</dd></div><div><dt>Found on</dt><dd id="armor-loot">Lord Vampires, Lord Vlad</dd></div></dl><a id="armor-wiki" class="text-link" href="{{ '/wiki/vampiric-armor/' | relative_url }}" data-wiki-root="{{ '/wiki/' | relative_url }}">Full equipment notes <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+      </div>
+      <noscript><p>Browse the <a href="{{ '/wiki/fire-armor/' | relative_url }}">Fire</a> and <a href="{{ '/wiki/arcane-armor/' | relative_url }}">Arcane</a> armor pages for more sets.</p></noscript>
+    </div></section>
+    <section id="connect" class="connect-section wrap" aria-labelledby="connect-title">
+      <div><p class="eyebrow">03 / Connection</p><h2 id="connect-title">See you in Rila.</h2><p>Rila is in development. Check Discord for current access,<br class="desktop-break"> client setup and announcements before connecting.</p><a class="button" href="https://discord.gg/AyeAPKcMaV" target="_blank" rel="noopener noreferrer">Join the community <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+      <div class="connection-panel"><div class="connection-title"><span>Server details</span><span class="status">In development</span></div><dl><div><dt>Host</dt><dd>play.rilauo.com</dd></div><div><dt>Port</dt><dd>2593</dd></div><div><dt>Ruleset</dt><dd>Level shard</dd></div></dl><button class="copy-button" type="button" data-copy="play.rilauo.com" aria-describedby="copy-status">Copy server address <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8h12v12H8zM16 8V4H4v12h4"/></svg></button><p id="copy-status" role="status" aria-live="polite">Client instructions are available on Discord.</p></div>
+    </section>
+  </main>
+  <footer class="site-footer wrap"><a class="footer-brand" href="{{ '/' | relative_url }}">Rila UO</a><p>An independent Ultima Online shard.</p><nav aria-label="Footer navigation"><a href="{{ '/wiki/' | relative_url }}">Wiki</a><a href="https://discord.gg/AyeAPKcMaV" target="_blank" rel="noopener noreferrer">Discord</a><a href="https://twitter.com/rilauo" target="_blank" rel="noopener noreferrer">Twitter</a></nav><span>© {{ 'now' | date: '%Y' }} Rila UO</span></footer>
+</body>
 </html>
