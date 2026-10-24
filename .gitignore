@@ -1,1 +1,23 @@
+# Generated sites and Jekyll caches
 _pages/
+_site/
+_public/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local logs and OS files
+*.log
+.DS_Store

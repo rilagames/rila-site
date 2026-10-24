@@ -37,5 +37,3 @@ aux_links:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - firebase.json
-  - public

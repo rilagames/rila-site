@@ -4,4 +4,3 @@ baseurl: "/rila-site"
 exclude:
   - Gemfile
   - Gemfile.lock
-  - firebase.json
