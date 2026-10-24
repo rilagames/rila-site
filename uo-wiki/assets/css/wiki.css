@@ -6,7 +6,7 @@ layout: null
   --map: url("{{ site.baseurl | remove: '/wiki' }}/assets/imgs/rila-map.webp");
 }
 /* The main site's logo, textures, header and footer come from rila.css. */
-.wiki-page .site-header nav a[aria-current] { color: #6b2913; border-bottom: 2px solid #793a1d; }
+
 .wiki-masthead { display: flex; justify-content: space-between; align-items: center; gap: 25px; margin-block: 30px; color: #351e0e; background: #dab982e8; border: 1px solid #936c37; padding: 23px 27px; }
 .wiki-masthead .eyebrow { color: #66391b; margin-bottom: 4px; font-size: 9px; }
 .wiki-section-title { font: 36px/1.2 var(--serif); margin: 0; }

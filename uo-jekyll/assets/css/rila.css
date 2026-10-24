@@ -136,8 +136,51 @@ h2 { font: 400 clamp(30px,3vw,42px)/1.2 var(--serif); letter-spacing: -.025em; m
 .connect-section { margin-block: 42px; padding-block: 40px; }
 @media(max-width:760px) { .hero-copy { padding: 24px 20px; }.world-section,.creatures-section,.connect-section { padding-inline: 20px; }.world-section { margin-block: 25px; padding-block: 30px; }.creatures-section { margin-bottom: 25px; padding-block: 20px; }.connect-section { margin-block: 25px; padding-block: 30px; } }
 
-/* Original crown-and-sword identity, adapted to the bronze interface. */
-.brand { min-width: 150px; padding: 5px 22px; display: flex; align-items: center; justify-content: center; }
-.brand img { display: block; width: 110px; height: 110px; object-fit: contain; }
-.site-header { min-height: 148px; }
-@media(max-width:760px) { .site-header { padding-block: 14px; }.brand { min-width: 130px; padding: 4px 15px; }.brand img { width: 90px; height: 90px; } }
+/* One shared leather-and-bronze navigation bar for the site and wiki. */
+.site-header {
+  display: grid;
+  grid-template-columns: 150px minmax(0,1fr) auto;
+  min-height: 126px;
+  gap: 20px;
+  padding: 10px 26px 10px 12px;
+  margin-top: 24px;
+  background: #32140e var(--leather) center / 420px;
+  border: 3px ridge #b28b49;
+  box-shadow: inset 0 0 0 2px #2a130c, 0 5px 16px #2b13094d;
+}
+.site-header .brand {
+  display: flex; justify-content: center; align-items: center;
+  min-width: 0; padding: 0 23px 0 10px;
+  border: 0; border-right: 1px solid #896338;
+  background: none; box-shadow: none;
+}
+.site-header .brand img { display: block; width: 100px; height: 100px; object-fit: contain; }
+.site-header nav { display: flex; justify-content: center; align-items: center; gap: 10px; color: #f3e5cb; font-size: 14px; font-weight: 600; }
+.site-header nav a {
+  display: inline-flex; justify-content: center; align-items: center; gap: 7px;
+  min-height: 46px; padding: 10px 19px;
+  color: #f3e5cb; text-shadow: none; border-bottom: 2px solid transparent;
+}
+.site-header nav a:hover { color: #ffe1a0; background: #6a3a205e; border-bottom-color: #c5a263; }
+.site-header nav a[aria-current] { color: #ffe1a0; background: #6a3a205e; border-bottom-color: #d2b16c; }
+.site-header .header-join {
+  display: inline-flex; gap: 15px; padding: 14px 0 14px 27px;
+  min-height: 46px; border: 0; border-left: 1px solid #896338;
+  background: none; box-shadow: none;
+  color: #f1cd88; font-size: 13px; font-weight: 700;
+}
+.site-header .header-join:hover { color: #fff0ca; }
+@media(max-width:1050px) {
+  .site-header { grid-template-columns: 128px minmax(0,1fr) auto; gap: 10px; padding-right: 20px; }
+  .site-header nav { gap: 3px; font-size: 13px; }
+  .site-header nav a { padding-inline: 13px; }
+  .site-header .header-join { padding-left: 18px; font-size: 12px; }
+}
+@media(max-width:760px) {
+  .site-header { grid-template-columns: 1fr auto; gap: 0; padding: 10px 16px 0; margin-top: 18px; }
+  .site-header .brand { grid-column: 1; grid-row: 1; justify-content: flex-start; border-right: 0; padding: 0; }
+  .site-header .brand img { width: 86px; height: 86px; }
+  .site-header .header-join { grid-column: 2; grid-row: 1; padding: 12px 0 12px 20px; font-size: 12px; }
+  .site-header nav { grid-column: 1/-1; grid-row: 2; order: 0; width: 100%; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 0; border-top: 1px solid #896338; margin-top: 8px; padding-block: 5px; }
+  .site-header nav a { min-height: 44px; padding: 10px 5px; font-size: 12px; }
+}
