@@ -1,18 +1,33 @@
 ---
 layout: default
-title: Devil Armor
+title: Devil Armor Suit
 permalink: /devil-armor/
 parent: Armors
 ---
-# Devil Armor
-![Level]({{ '/assets/img/armor_devil.png' | relative_url }} "Devil Armor")
+# Devil Armor Suit
 
-|Armor|Level Requirement
-|-|--|
-|  150 |1
+![Devil Armor Suit worn on the live server, with the character armor status visible]({{ '/assets/img/armor_devil_live.webp' | relative_url }})
 
+*Captured from the live Rila client on 24 October 2026. The picture shows the suit worn on a character and the server-reported armor value.*
 
-```
-LOOT: Devil Warriors
-FEATURE: Devilish Shot (+25 damage per hit)
-```
+| Property | Current value |
+|---|---|
+| Armor at full durability | 150 |
+| Required STR | 100 |
+| Maximum durability | 500 |
+| Wear level | To be decided |
+| Current temporary maximum level | No maximum level restriction |
+| Suit change cooldown | 4 seconds |
+| Item type | One armor suit |
+
+## Effect
+
+Successful weapon hits that deal actual damage add 5 armor-piercing damage to the main target.
+
+## Wearing the suit
+
+Double-click this suit in your own backpack to equip it, or select it with the **ArmorWear** macro. The previous suit moves to your backpack. The worn item is shown in the paperdoll's **Armor Suit Slot**.
+
+You can cast spells while wearing this suit. To remove it, drag the worn item from the Armor Suit Slot into your backpack. After equipping a suit, wait 4 seconds before equipping another one.
+
+Armor falls as durability is lost; the table gives the value at full durability.

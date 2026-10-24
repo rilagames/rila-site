@@ -5,15 +5,9 @@ permalink: /holy-armor/
 parent: Armors
 ---
 # Holy Armor
-![Level]({{ '/assets/img/armor_holy.png' | relative_url }} "Holy Armor")
 
-|Armor|Level Requirement
-|-|--|
-|  100 |1
+**Not available in the current live armor catalog.**
 
+Checked on 24 October 2026. There is no current live screenshot or verified item-stat entry for this armor. Historical artwork and old bonus values have been removed from the current reference to avoid confusing them with the active armor suits.
 
-```
-LOOT: *Will be announced!*
-
-FEATURE: Angel, Devil and Arcane powers in one. Low armor.
-```
+See [current armor suits]({{ '/Armors/' | relative_url }}) for the available equipment.

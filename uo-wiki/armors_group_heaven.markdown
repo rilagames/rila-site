@@ -5,16 +5,9 @@ permalink: /heaven-armor/
 parent: Armors
 ---
 # Heaven Armor
-![Level]({{ '/assets/img/armor_heaven.png' | relative_url }} "Heaven Armor")
 
-|Armor|Level Requirement
-|-|--|
-|  500 |1
+**Not available in the current live armor catalog.**
 
+Checked on 24 October 2026. There is no current live screenshot or verified item-stat entry for this armor. Historical artwork and old bonus values have been removed from the current reference to avoid confusing them with the active armor suits.
 
-```
-LOOT: *Will be announced!*
-
-
-FEATURE: +100 str, huge hp regen, huge life drain.
-```
+See [current armor suits]({{ '/Armors/' | relative_url }}) for the available equipment.

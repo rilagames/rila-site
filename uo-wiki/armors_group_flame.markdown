@@ -5,14 +5,9 @@ permalink: /flame-armor/
 parent: Armors
 ---
 # Flame Armor
-![Level]({{ '/assets/img/armor_flame.png' | relative_url }} "Flame Armor")
 
-|Armor|Level Requirement
-|-|--|
-|  250 |1
+**Not available in the current live armor catalog.**
 
+Checked on 24 October 2026. There is no current live screenshot or verified item-stat entry for this armor. Historical artwork and old bonus values have been removed from the current reference to avoid confusing them with the active armor suits.
 
-```
-LOOT: *Will be announced!*
-FEATURE: It gives 100 damages to whoever damages you. (randomly)
-```
+See [current armor suits]({{ '/Armors/' | relative_url }}) for the available equipment.
