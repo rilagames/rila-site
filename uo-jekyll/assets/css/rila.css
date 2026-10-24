@@ -135,3 +135,9 @@ h2 { font: 400 clamp(30px,3vw,42px)/1.2 var(--serif); letter-spacing: -.025em; m
 .creatures-section { margin-bottom: 42px; padding-block: 30px; }
 .connect-section { margin-block: 42px; padding-block: 40px; }
 @media(max-width:760px) { .hero-copy { padding: 24px 20px; }.world-section,.creatures-section,.connect-section { padding-inline: 20px; }.world-section { margin-block: 25px; padding-block: 30px; }.creatures-section { margin-bottom: 25px; padding-block: 20px; }.connect-section { margin-block: 25px; padding-block: 30px; } }
+
+/* Original crown-and-sword identity, adapted to the bronze interface. */
+.brand { min-width: 150px; padding: 5px 22px; display: flex; align-items: center; justify-content: center; }
+.brand img { display: block; width: 110px; height: 110px; object-fit: contain; }
+.site-header { min-height: 148px; }
+@media(max-width:760px) { .site-header { padding-block: 14px; }.brand { min-width: 130px; padding: 4px 15px; }.brand img { width: 90px; height: 90px; } }
