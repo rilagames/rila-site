@@ -1,24 +1,13 @@
 ---
 layout: default
-title: Vampiric Warrior
+title: Vampiric Warrior (unavailable)
 permalink: /vampiric-warrior/
 parent: Monsters
 ---
 # Vampiric Warrior
-![Level]({{ '/assets/img/warrior_vampiric.png' | relative_url }} "Vampiric Warrior")
 
-|Str|Level|Experience
-|-|--|
-|  2000 |10|500
+**Not included in the current warrior catalog.**
 
+The current variants are Angel, Devil, Fire, Earth, Arcane, Lightning and Acid. Historical level, XP and Vampiric armor-part loot information has been retired from this page.
 
-```
-LOOT: Vampiric armor parts.
-```
-
-NOTE
-{: .label .label-red }
-```
-You need to be higher than monster's level to attack it.
-Experience part in above chart means that; you will gain that amount of experience when you kill this npc.
-```
+[See the current warriors]({{ '/Monsters/' | relative_url }}).

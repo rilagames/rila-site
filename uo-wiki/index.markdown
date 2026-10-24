@@ -18,16 +18,16 @@ The systems, equipment and creatures of Rila Ultima Online. Choose a topic below
 - [Armors]({{ '/Armors/' | relative_url }}): sets, requirements and special effects.
 - [Weapons]({{ '/Weapons/' | relative_url }}): elemental weapons and damage values.
 - [Special items]({{ '/special-items/' | relative_url }}): boots, cloaks, robes and more.
-- [Monsters]({{ '/Monsters/' | relative_url }}): creatures, levels and loot.
-- [Mounts]({{ '/mounts/' | relative_url }}): ethereal mounts and their bonuses.
+- [Monsters]({{ '/Monsters/' | relative_url }}): the seven warrior variants, attack levels and shared kill XP.
+- [Mounts]({{ '/mounts/' | relative_url }}): all 20 ethereal types, riding requirements and return-to-item behavior.
 
 ## Shard reference
 
 | Setting | Value |
 |:--------|:------|
 | Server type | Level shard |
-| Maximum level | 50 |
+| Maximum level | 60 |
 | Maximum tier | 3 |
-| Strength / Dexterity / Intelligence | 400 / 200 / 200 |
+| Strength / Dexterity / Intelligence | 400 / 200 / 100 |
 
 For current access and client instructions, [join the Rila Discord](https://discord.gg/AyeAPKcMaV).
