@@ -52,6 +52,29 @@
     </aside>
     <main id="wiki-content" class="wiki-article" tabindex="-1">
       <nav class="wiki-breadcrumbs" aria-label="Breadcrumb"><a href="{{ main_base }}/">Rila</a><span aria-hidden="true">/</span><a href="{{ '/' | relative_url }}">Wiki</a>{% if page.parent %}{% assign parent_page = site.pages | where: 'title', page.parent | first %}<span aria-hidden="true">/</span><a href="{{ parent_page.url | relative_url }}">{{ page.parent | escape }}</a>{% endif %}{% unless page.layout == 'home' %}<span aria-hidden="true">/</span><span aria-current="page">{{ page.title | default: 'Page not found' | escape }}</span>{% endunless %}</nav>
+      {% unless page.layout == 'home' %}
+      {% assign previous_page = nil %}{% assign next_page = nil %}
+      {% if page.parent %}
+        {% assign siblings = site.pages | where: 'parent', page.parent | sort: 'title' %}
+        {% assign previous_page = site.pages | where: 'title', page.parent | first %}
+        {% assign next_page = previous_page %}
+      {% else %}
+        {% assign siblings = navigation | where_exp: 'item', 'item.parent == nil' %}
+      {% endif %}
+      {% for sibling in siblings %}
+        {% if sibling.url == page.url %}
+          {% unless forloop.first %}{% assign previous_index = forloop.index0 | minus: 1 %}{% assign previous_page = siblings[previous_index] %}{% endunless %}
+          {% unless forloop.last %}{% assign next_index = forloop.index0 | plus: 1 %}{% assign next_page = siblings[next_index] %}{% endunless %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% if previous_page or next_page %}
+      <nav class="wiki-page-navigation" aria-label="Previous and next pages">
+        {% if previous_page %}<a class="wiki-page-previous" href="{{ previous_page.url | relative_url }}#wiki-content" rel="prev"><small>← Previous</small><span>{{ previous_page.title | escape }}</span></a>{% endif %}
+        {% if next_page %}<a class="wiki-page-next" href="{{ next_page.url | relative_url }}#wiki-content" rel="next"><small>Next →</small><span>{{ next_page.title | escape }}</span></a>{% endif %}
+      </nav>
+      {% endif %}
+      {% endunless %}
       <article class="wiki-prose">{{ content }}</article>
       {% if page.has_children %}
       {% assign children = site.pages | where: 'parent', page.title | sort: 'title' %}
