@@ -6,6 +6,10 @@ parent: Mounts
 ---
 # Ethereal War Boar
 
+![Ethereal War Boar in the live Rila client]({{ '/assets/img/mount_war_boar_live.webp' | relative_url }})
+
+*In-game screenshot captured on 25 October 2026.*
+
 War Boar is one of Rila's **20 ethereal mount types**. It is carried as an item and ridden directly; you do not tame a separate animal to use this version.
 
 | Property | Current value |

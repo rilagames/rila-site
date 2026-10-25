@@ -6,6 +6,10 @@ parent: Mounts
 ---
 # Ethereal Newfoundland
 
+![Ethereal Newfoundland in the live Rila client]({{ '/assets/img/mount_newfoundland_live.webp' | relative_url }})
+
+*In-game screenshot captured on 25 October 2026.*
+
 Newfoundland is one of Rila's **20 ethereal mount types**. It is carried as an item and ridden directly; you do not tame a separate animal to use this version.
 
 | Property | Current value |

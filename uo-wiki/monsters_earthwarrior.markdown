@@ -6,6 +6,10 @@ parent: Monsters
 ---
 # Earth Warrior
 
+![Earth Warrior in the live Rila client]({{ '/assets/img/warrior_earth_live.webp' | relative_url }})
+
+*In-game screenshot captured on 25 October 2026.*
+
 Earth Warrior is one of Rila's seven warrior variants. It uses a sword and shield at close range and switches to a bow at greater distance.
 
 ## Current values

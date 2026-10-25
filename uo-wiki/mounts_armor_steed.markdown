@@ -6,6 +6,10 @@ parent: Mounts
 ---
 # Ethereal Armor Steed
 
+![Ethereal Armor Steed in the live Rila client]({{ '/assets/img/mount_armor_steed_live.webp' | relative_url }})
+
+*In-game screenshot captured on 25 October 2026.*
+
 Armor Steed is one of Rila's **20 ethereal mount types**. It is carried as an item and ridden directly; you do not tame a separate animal to use this version.
 
 | Property | Current value |

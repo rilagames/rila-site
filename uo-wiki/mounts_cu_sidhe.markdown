@@ -6,6 +6,10 @@ parent: Mounts
 ---
 # Ethereal Cu Sidhe
 
+![Ethereal Cu Sidhe in the live Rila client]({{ '/assets/img/mount_cu_sidhe_live.webp' | relative_url }})
+
+*In-game screenshot captured on 25 October 2026.*
+
 Cu Sidhe is one of Rila's **20 ethereal mount types**. It is carried as an item and ridden directly; you do not tame a separate animal to use this version.
 
 | Property | Current value |

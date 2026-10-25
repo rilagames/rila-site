@@ -6,6 +6,10 @@ parent: Monsters
 ---
 # Devil Warrior
 
+![Devil Warrior in the live Rila client]({{ '/assets/img/warrior_devil_live.webp' | relative_url }})
+
+*In-game screenshot captured on 25 October 2026.*
+
 Devil Warrior is one of Rila's seven warrior variants. It uses a sword and shield at close range and switches to a bow at greater distance.
 
 ## Current values

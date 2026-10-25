@@ -6,6 +6,10 @@ parent: Monsters
 ---
 # Fire Warrior
 
+![Fire Warrior in the live Rila client]({{ '/assets/img/warrior_fire_live.webp' | relative_url }})
+
+*In-game screenshot captured on 25 October 2026.*
+
 Fire Warrior is one of Rila's seven warrior variants. It uses a sword and shield at close range and switches to a bow at greater distance.
 
 ## Current values
