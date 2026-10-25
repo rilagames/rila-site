@@ -6,9 +6,9 @@ parent: Armors
 ---
 # Devil Armor Suit
 
-![Devil Armor Suit worn on the live server, with the character armor status visible]({{ '/assets/img/armor_devil_live.webp' | relative_url }})
+![Devil Armor Suit in its corrected red color on the live server]({{ '/assets/img/armor_devil_live.webp' | relative_url }})
 
-*Captured from the live Rila client on 24 October 2026. The picture shows the suit worn on a character and the server-reported armor value.*
+*Captured from the live Rila client on 25 October 2026, showing the corrected red suit in the character equipment window.*
 
 | Property | Current value |
 |---|---|
