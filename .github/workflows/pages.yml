@@ -18,7 +18,7 @@ jobs:
     permissions:
       contents: read
       pages: read
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - name: Configure Pages
@@ -27,12 +27,19 @@ jobs:
         uses: actions/configure-pages@v5
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
-          bundler: '2.2.16'
+          ruby-version: '3.4'
+          bundler: '2.6.9'
       - name: Install dependencies
         run: |
           for site in uo-jekyll uo-wiki; do
             (cd "$site" && bundle install)
+          done
+      - name: Audit dependencies
+        run: |
+          gem install bundler-audit --no-document
+          bundler-audit update
+          for site in uo-jekyll uo-wiki; do
+            (cd "$site" && bundler-audit check)
           done
       - name: Build both sites
         env:

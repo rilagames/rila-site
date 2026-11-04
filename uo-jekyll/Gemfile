@@ -2,9 +2,7 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+ruby ">= 3.3", "< 4.0"
 
-# gem "rails"
-gem "jekyll"
-
-gem "webrick", "~> 1.7"
+gem "jekyll", "~> 4.4"
+gem "webrick", "~> 1.9"
