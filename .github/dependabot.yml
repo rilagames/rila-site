@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: bundler
+    directory: /uo-jekyll
+    schedule:
+      interval: weekly
+    groups:
+      ruby-dependencies:
+        patterns: ["*"]
+  - package-ecosystem: bundler
+    directory: /uo-wiki
+    schedule:
+      interval: weekly
+    groups:
+      ruby-dependencies:
+        patterns: ["*"]
