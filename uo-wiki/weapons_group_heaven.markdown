@@ -1,18 +1,19 @@
 ---
 layout: default
-title: Heaven Weapons
+title: Heaven Silahları (Arşiv)
 permalink: /heaven-Weapons/
-parent: Weapons
+parent: Silahlar
 ---
-# Heaven Weapons
-![Level]({{ '/assets/img/weapons_heaven.png' | relative_url }} "Heaven Weapons")
+# Heaven Silahları
 
-|Weapon  |Damage|Level Requirement
-|-|--|
-|  Heaven Katana |50|40
-|  Heaven Crossbow |40|40
+**Önceki Rila kataloğundan görsel arşivi.**
 
-```
-LOOT: *Will be announced!*
-FEATURE: Huge life drain on every hit. Your hits can not reach max str.
-```
+![Heaven Silahları arşiv görseli]({{ '/assets/img/weapons_heaven.png' | relative_url }})
+
+Bu sayfa eski level sunucusundaki ekipmanın adını ve varsa görsellerini korur. PVP sürümünde bulunabilirliği ve özellikleri henüz bu sayfa için doğrulanmamıştır.
+
+## PVP bilgi durumu
+
+Eski level ve tier gereksinimleri, hasar ve bonus değerleri, deneyim ödülleri ve edinme yolları güncel PVP kuralı olarak aktarılmamıştır. Görseller önceki sürümden kalabilir.
+
+[Güncel silahlar rehberine dön]({{ '/Weapons/' | relative_url }}).

@@ -1,22 +1,19 @@
 ---
 layout: default
-title: Earth Weapons
+title: Earth Silahları (Arşiv)
 permalink: /earth-weapons/
-parent: Weapons
+parent: Silahlar
 ---
-# Earth Weapons
-![Level]({{ '/assets/img/weapons_earth.png' | relative_url }} "Earth Weapons")
+# Earth Silahları
 
-|Weapon  |Damage|Level Requirement
-|-|--|
-|  Earth bow |40|25
-|  Earth Xbow |45|25
-|  Earth Sword |50|25
-|  Earth Mace |60|25
-| Earth Halberd|70|25
+**Önceki Rila kataloğundan görsel arşivi.**
 
+![Earth Silahları arşiv görseli]({{ '/assets/img/weapons_earth.png' | relative_url }})
 
-```
-LOOT: *Will be announced!*
-FEATURE: Randomly gives +50 Earth damage.
-```
+Bu sayfa eski level sunucusundaki ekipmanın adını ve varsa görsellerini korur. PVP sürümünde bulunabilirliği ve özellikleri henüz bu sayfa için doğrulanmamıştır.
+
+## PVP bilgi durumu
+
+Eski level ve tier gereksinimleri, hasar ve bonus değerleri, deneyim ödülleri ve edinme yolları güncel PVP kuralı olarak aktarılmamıştır. Görseller önceki sürümden kalabilir.
+
+[Güncel silahlar rehberine dön]({{ '/Weapons/' | relative_url }}).

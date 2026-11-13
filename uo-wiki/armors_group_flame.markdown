@@ -1,13 +1,17 @@
 ---
 layout: default
-title: Flame Armor
+title: Flame Zırhı (Arşiv)
 permalink: /flame-armor/
-parent: Armors
+parent: Zırhlar
 ---
-# Flame Armor
+# Flame Zırhı
 
-**Not available in the current live armor catalog.**
+**Önceki Rila kataloğundan görsel arşivi.**
 
-Checked on 24 October 2026. There is no current live screenshot or verified item-stat entry for this armor. Historical artwork and old bonus values have been removed from the current reference to avoid confusing them with the active armor suits.
+Bu sayfa eski level sunucusundaki ekipmanın adını ve varsa görsellerini korur. PVP sürümünde bulunabilirliği ve özellikleri henüz bu sayfa için doğrulanmamıştır.
 
-See [current armor suits]({{ '/Armors/' | relative_url }}) for the available equipment.
+## PVP bilgi durumu
+
+Eski level ve tier gereksinimleri, hasar ve bonus değerleri, deneyim ödülleri ve edinme yolları güncel PVP kuralı olarak aktarılmamıştır. Görseller önceki sürümden kalabilir.
+
+[Güncel zırhlar rehberine dön]({{ '/Armors/' | relative_url }}).

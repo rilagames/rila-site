@@ -1,44 +1,19 @@
 ---
 layout: default
-title: Devil Warrior
+title: Devil Savaşçısı (Arşiv)
 permalink: /devil-warrior/
-parent: Monsters
+parent: Yaratıklar
 ---
-# Devil Warrior
+# Devil Savaşçısı
 
-![Devil Warrior in the live Rila client]({{ '/assets/img/warrior_devil_live.webp' | relative_url }})
+**Önceki Rila kataloğundan görsel arşivi.**
 
-*In-game screenshot captured on 25 October 2026.*
+![Devil Savaşçısı arşiv görseli]({{ '/assets/img/warrior_devil_live.webp' | relative_url }})
 
-Devil Warrior is one of Rila's seven warrior variants. It uses a sword and shield at close range and switches to a bow at greater distance.
+Bu sayfa eski level sunucusundaki yaratığın adını ve varsa görsellerini korur. PVP sürümünde bulunabilirliği ve özellikleri henüz bu sayfa için doğrulanmamıştır.
 
-## Current values
+## PVP bilgi durumu
 
-| Property | Value |
-|---|---:|
-| Minimum player level to attack | 24 |
-| Health | 3,500 |
-| STR | 1,000 |
-| DEX | 1,000 |
-| INT | 300 |
-| Total kill XP | 295 |
-| Sword / bow base damage | 135 |
+Eski level ve tier gereksinimleri, hasar ve bonus değerleri, deneyim ödülleri ve edinme yolları güncel PVP kuralı olarak aktarılmamıştır. Görseller önceki sürümden kalabilir.
 
-You may attack at **level 24 or higher**; you do not need to be above that level. The requirement also applies when attacking through pets or summoned creatures. Being below the requirement does not make you safe from the warrior's attacks.
-
-## Fighting the warrior
-
-- Within two tiles, it uses a sword and shield. Farther away, it switches to a bow.
-- After taking damage from farther than one tile, it may teleport to its attacker. This requires the same map, line of sight, a valid destination and a distance of at most 12 tiles. Teleporting cannot occur more often than once every two seconds.
-- The 135 damage value is the weapon's base value. It is not a promise that every hit removes exactly 135 health.
-- The warrior's name and color do not grant the effects of the similarly named armor suit. No separate elemental attack is assigned to this variant.
-
-## Experience and drops
-
-**295 XP is the total reward budget for the kill**, shared through damage contribution and party rules. Eligible recipients must be alive, online, on the same map, within 18 tiles and meet the level requirement. An underlevel party member does not receive a share.
-
-The warrior's equipment cannot be worn by players. No armor-suit or special-item drop is configured for this warrior; historical armor-part loot claims do not apply to the current version.
-
-[See all warrior variants]({{ '/Monsters/' | relative_url }}).
-
-*Values checked against the current Rila server catalog on 24 October 2026.*
+[Güncel yaratıklar rehberine dön]({{ '/Monsters/' | relative_url }}).

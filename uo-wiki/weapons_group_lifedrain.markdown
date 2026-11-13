@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Lifedrain Weapons
+title: Lifedrain Silahları (Arşiv)
 permalink: /lifedrain-weapons/
-parent: Weapons
+parent: Silahlar
 ---
-# Lifedrain Weapons
-![Level]({{ '/assets/img/weapons_lifedrain.png' | relative_url }} "Lifedrain Weapons")
+# Lifedrain Silahları
 
-|Weapon  |Damage|Level Requirement|
-|-|--|
-|  Lifedrain Sword |55|10
-|  Lifedrain Halberd |65|10
+**Önceki Rila kataloğundan görsel arşivi.**
 
+![Lifedrain Silahları arşiv görseli]({{ '/assets/img/weapons_lifedrain.png' | relative_url }})
 
-```
-LOOT: Lord Vampires, Lord Vlad
-FEATURE: Life drain!
-```
+Bu sayfa eski level sunucusundaki ekipmanın adını ve varsa görsellerini korur. PVP sürümünde bulunabilirliği ve özellikleri henüz bu sayfa için doğrulanmamıştır.
+
+## PVP bilgi durumu
+
+Eski level ve tier gereksinimleri, hasar ve bonus değerleri, deneyim ödülleri ve edinme yolları güncel PVP kuralı olarak aktarılmamıştır. Görseller önceki sürümden kalabilir.
+
+[Güncel silahlar rehberine dön]({{ '/Weapons/' | relative_url }}).

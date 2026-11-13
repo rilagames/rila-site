@@ -1,20 +1,17 @@
 ---
 layout: default
-title: Super Bows
+title: Super Yaylar (Arşiv)
 permalink: /super-bows/
-parent: Weapons
+parent: Silahlar
 ---
-# Super Bows
+# Super Yaylar
 
-Super Bow and Evil Super Bow use the crossbow weapon system.
+**Önceki Rila kataloğundan görsel arşivi.**
 
-| Weapon | Base damage | Required level | Required STR |
-|---|---:|---:|---:|
-| Super Bow | 30 | 27 | 75 |
-| Evil Super Bow | 45 | 36 | 30 |
+Bu sayfa eski level sunucusundaki ekipmanın adını ve varsa görsellerini korur. PVP sürümünde bulunabilirliği ve özellikleri henüz bu sayfa için doğrulanmamıştır.
 
-Level requirements are checked by the server when equipping and attacking. Base damage is the weapon's configured damage, before combat calculations; it does not guarantee the same health loss on every hit.
+## PVP bilgi durumu
 
-The ranged weapons in this group do not require or consume arrows or bolts in Rila's Sphere56T profile. They are not currently assigned to a new NPC loot table.
+Eski level ve tier gereksinimleri, hasar ve bonus değerleri, deneyim ödülleri ve edinme yolları güncel PVP kuralı olarak aktarılmamıştır. Görseller önceki sürümden kalabilir.
 
-*Values checked against the current Rila server catalog on 25 October 2026.*
+[Güncel silahlar rehberine dön]({{ '/Weapons/' | relative_url }}).

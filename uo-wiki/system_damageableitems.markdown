@@ -1,17 +1,15 @@
 ---
 layout: default
-title: Damageable Items
+title: Eşya Dayanıklılığı
 permalink: /damageableitems-system/
 nav_order: 5
 ---
-# Damageable Items
+# Eşya dayanıklılığı
 
-![Level]({{ '/assets/img/damagedarmors.gif' | relative_url }} "Damageable Items")
+Eşyanın dayanıklılık ve aşınma davranışı kendi sunucu tanımına bağlıdır. Eski wikideki “her ölümde 1 hasar” ve “10 ölümden sonra kırılma” açıklamaları güncel PVP kuralı olarak doğrulanmamıştır.
 
-NOTE
-{: .label .label-red }
+## Ekipmanını kontrol et
 
-* Since there is no loot allowed in our server, players will sent to safe place when they die. (EXCEPT WARZONES)<br>
-* When a player dies every special item, armor and weapon gets 1 damage from its hitpoints. If they did not repair it, it will explode.<br>
-* All special items, armors and weapons have 10 hitpoints. It means you can die 10 times without repairing them.<br>
+Eşya bilgilerini ve karakterinin zırh değerini oyun içinden kontrol et. Zırh değeri ile dayanıklılık aynı bilgi değildir.
 
+Güncel aşınma ve kırılma kuralları doğrulandıktan sonra burada yayımlanacaktır.

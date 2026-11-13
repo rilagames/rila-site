@@ -1,25 +1,27 @@
 ---
 layout: default
-title: Stat System
+title: Karakter Değerleri
 permalink: /stat_system/
 nav_order: 3
 ---
-# Stat System
-**.stat**
-```
-You can use .stat command for check your base stats. It has always been locked. You don't need to do anything.
-Max stats are these without any wear;
-Str = 400
-Dex = 200
-Int = 200
+# Karakter değerleri
 
-```
+Durum penceresi karakterinin temel değerlerini gösterir.
 
-**Stat Regen**
-```
-Without any additional wear;
-+3 hp per 2 seconds
-+1 mana per seconds
-+1 stam per seconds
+| Değer | Açıklama |
+|---|---|
+| STR | Güç |
+| DEX | Çeviklik |
+| INT | Zekâ |
+| Hits | Mevcut / azami can |
+| Mana | Mevcut / azami mana |
+| Stam | Mevcut / azami dayanıklılık |
+| Armor | Zırh değeri |
+| Gold | Altın |
+| Weight | Mevcut / azami taşıma ağırlığı |
 
-```
+## Durum penceresi
+
+İki durum profili seçeneği de aynı deri ve bronz görünümlü paneli kullanır. Can, mana ve dayanıklılık kırmızı, mavi ve yeşil çubuklarla izlenir. Panelde level ve yenilenme satırları bulunmaz.
+
+Eski sunucunun stat üst sınırları ve yenilenme oranları PVP için doğrulanmış değerler olarak yayımlanmaz.

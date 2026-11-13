@@ -1,21 +1,19 @@
 ---
 layout: default
-title: Devil Weapons
+title: Devil Silahları (Arşiv)
 permalink: /devil-weapons/
-parent: Weapons
+parent: Silahlar
 ---
-# Devil Weapons
-![Level]({{ '/assets/img/weapons_devil.png' | relative_url }} "Devil Weapons")
+# Devil Silahları
 
-|Weapon  |Damage|Level Requirement
-|-|--|
-|  Devil bow |30|15
-|  Devil Xbow |35|15
-|  Devil Kryss |65|15
-| Devil Halberd|70|15
+**Önceki Rila kataloğundan görsel arşivi.**
 
+![Devil Silahları arşiv görseli]({{ '/assets/img/weapons_devil.png' | relative_url }})
 
-```
-LOOT: Devil Warriors
-FEATURE: Extra damage to Angel warriors and players with Angel armors.
-```
+Bu sayfa eski level sunucusundaki ekipmanın adını ve varsa görsellerini korur. PVP sürümünde bulunabilirliği ve özellikleri henüz bu sayfa için doğrulanmamıştır.
+
+## PVP bilgi durumu
+
+Eski level ve tier gereksinimleri, hasar ve bonus değerleri, deneyim ödülleri ve edinme yolları güncel PVP kuralı olarak aktarılmamıştır. Görseller önceki sürümden kalabilir.
+
+[Güncel silahlar rehberine dön]({{ '/Weapons/' | relative_url }}).

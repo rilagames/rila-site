@@ -2,32 +2,37 @@
 layout: home
 title: Wiki
 ---
-# The Rila field guide
+# Rila PVP oyuncu rehberi
 
-The systems, equipment and creatures of Rila Ultima Online. Choose a topic below or search the guide for a specific item.
+Rila’nın PVP dünyası, karakter ekranları ve bölge kuralları için Türkçe başvuru kaynağı. Bir konu seç veya arama alanını kullan.
 
-## Start with the rules
+## Buradan başla
 
-- [Level system]({{ '/level-system/' | relative_url }}): experience, levels and tier progression.
-- [Stat system]({{ '/stat_system/' | relative_url }}): strength, dexterity, intelligence and regeneration.
-- [Party system]({{ '/party-system/' | relative_url }}): find a group and share experience.
-- [New player helper]({{ '/new-player-helper/' | relative_url }}): get information about items and creatures in game.
+- [Başlangıç rehberi]({{ '/new-player-helper/' | relative_url }}): istemci, erişim ve ilk hazırlık.
+- [PVP rehberi]({{ '/pvp/' | relative_url }}): oyun yapısı ve güncel bilgi kapsamı.
+- [Güvenli Bölge]({{ '/safe-zone/' | relative_url }}): Trade Island sınırları ve korumalar.
+- [Karakter değerleri]({{ '/stat_system/' | relative_url }}): STR, DEX, INT ve kaynaklar.
+- [Karakter ekranı]({{ '/player-profile/' | relative_url }}): ekipman, çanta ve durum penceresi.
+- [Grup sistemi]({{ '/party-system/' | relative_url }}): birlikte oynamak için temel komutlar.
 
-## Equipment and creatures
+## Ekipman ve dünya
 
-- [Armors]({{ '/Armors/' | relative_url }}): sets, requirements and special effects.
-- [Weapons]({{ '/Weapons/' | relative_url }}): elemental weapons and damage values.
-- [Special items]({{ '/special-items/' | relative_url }}): boots, cloaks, robes and more.
-- [Monsters]({{ '/Monsters/' | relative_url }}): the seven warrior variants, attack levels and shared kill XP.
-- [Mounts]({{ '/mounts/' | relative_url }}): all 20 ethereal types, riding requirements and return-to-item behavior.
+- [Zırhlar]({{ '/Armors/' | relative_url }}): ekipman rehberi ve önceki katalog görselleri.
+- [Silahlar]({{ '/Weapons/' | relative_url }}): silah bilgileri ve arşiv.
+- [Özel eşyalar]({{ '/special-items/' | relative_url }}): aksesuar görselleri ve bilgi durumu.
+- [Yaratıklar]({{ '/Monsters/' | relative_url }}): yaratık arşivi.
+- [Binekler]({{ '/mounts/' | relative_url }}): güncel sistem ve eski ethereal arşivinin ayrımı.
+- [Ölüm ve ganimet]({{ '/loot-system/' | relative_url }}): yayımlanan kuralların kapsamı.
 
-## Shard reference
+## Sunucu bilgileri
 
-| Setting | Value |
-|:--------|:------|
-| Server type | Level shard |
-| Maximum level | 60 |
-| Maximum tier | 3 |
-| Strength / Dexterity / Intelligence | 400 / 200 / 100 |
+| Başlık | Bilgi |
+|---|---|
+| Sunucu türü | PVP |
+| Dil | Türkçe |
+| Durum | Geliştirme aşamasında |
+| Güvenli Bölge | Trade Island kasabası |
 
-For current access and client instructions, [join the Rila Discord](https://discord.gg/AyeAPKcMaV).
+Eski level ve tier tabloları PVP kuralı olarak kullanılmaz. Arşiv sayfalarındaki görseller, ilgili eşyanın güncel PVP sunucusunda edinilebilir olduğunu garanti etmez.
+
+Güncel erişim ve test duyuruları için [Rila Discord’a katıl](https://discord.gg/AyeAPKcMaV).

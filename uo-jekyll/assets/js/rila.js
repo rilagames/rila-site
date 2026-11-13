@@ -1,7 +1,7 @@
 const equipment = {
-  vampiric: { name: 'Vampiric armor', effect: 'Life drain.', armor: '300', loot: 'Lord Vampires, Lord Vlad' },
-  fire: { name: 'Fire armor', effect: 'Full resistance to the extra damage of fire weapons.', armor: '350', loot: 'Fire Warrior' },
-  arcane: { name: 'Arcane armor', effect: 'A chance to deal 100 extra damage to NPCs and 30 to 50 extra damage to players.', armor: '300', loot: 'Arcane Warrior' }
+  vampiric: { name: 'Vampiric zırhı', effect: 'Arşiv görseli; güncel PVP özelliği olarak sunulmaz.', armor: 'Doğrulanacak', loot: 'Duyurulacak' },
+  fire: { name: 'Fire zırhı', effect: 'Arşiv görseli; güncel PVP özelliği olarak sunulmaz.', armor: 'Doğrulanacak', loot: 'Duyurulacak' },
+  arcane: { name: 'Arcane zırhı', effect: 'Arşiv görseli; güncel PVP özelliği olarak sunulmaz.', armor: 'Doğrulanacak', loot: 'Duyurulacak' }
 };
 const image = document.querySelector('#selected-armor');
 const wiki = document.querySelector('#armor-wiki');
@@ -29,8 +29,8 @@ copy.addEventListener('click', async () => {
   const status = document.querySelector('#copy-status');
   try {
     await navigator.clipboard.writeText(copy.dataset.copy);
-    status.textContent = 'Server address copied.';
+    status.textContent = 'Sunucu adresi kopyalandı.';
   } catch {
-    status.textContent = `Copy this address: ${copy.dataset.copy}`;
+    status.textContent = `Bu adresi kopyala: ${copy.dataset.copy}`;
   }
 });

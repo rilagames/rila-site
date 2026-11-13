@@ -1,17 +1,19 @@
 ---
 layout: default
-title: Holy Katana
+title: Holy Katana (Arşiv)
 permalink: /holy-katana/
-parent: Weapons
+parent: Silahlar
 ---
-# Holy Weapons
-![Level]({{ '/assets/img/weapons_holy.png' | relative_url }} "Holy Katana")
+# Holy Katana
 
-|Weapon  |Damage|Level Requirement
-|-|--|
-|  Holy Katana |50|40
+**Önceki Rila kataloğundan görsel arşivi.**
 
-```
-LOOT: *Will be announced!*
-FEATURE: +50 extra damage to players , +100 extra damage to npcs on every hit.
-```
+![Holy Katana arşiv görseli]({{ '/assets/img/weapons_holy.png' | relative_url }})
+
+Bu sayfa eski level sunucusundaki ekipmanın adını ve varsa görsellerini korur. PVP sürümünde bulunabilirliği ve özellikleri henüz bu sayfa için doğrulanmamıştır.
+
+## PVP bilgi durumu
+
+Eski level ve tier gereksinimleri, hasar ve bonus değerleri, deneyim ödülleri ve edinme yolları güncel PVP kuralı olarak aktarılmamıştır. Görseller önceki sürümden kalabilir.
+
+[Güncel silahlar rehberine dön]({{ '/Weapons/' | relative_url }}).

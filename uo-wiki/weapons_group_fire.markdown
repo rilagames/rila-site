@@ -1,22 +1,19 @@
 ---
 layout: default
-title: Fire Weapons
+title: Fire Silahları (Arşiv)
 permalink: /fire-weapons/
-parent: Weapons
+parent: Silahlar
 ---
-# Fire Weapons
-![Level]({{ '/assets/img/weapons_fire.png' | relative_url }} "Fire Weapons")
+# Fire Silahları
 
-|Weapon  |Damage|Level Requirement
-|-|--|
-|  Fire bow |50|30
-|  Fire Xbow |55|30
-|  Fire Sword |60|30
-|  Fire Mace |70|30
-| Fire Halberd|80|30
+**Önceki Rila kataloğundan görsel arşivi.**
 
+![Fire Silahları arşiv görseli]({{ '/assets/img/weapons_fire.png' | relative_url }})
 
-```
-LOOT: *Will be announced!*
-FEATURE: Randomly gives +70 fire damage.
-```
+Bu sayfa eski level sunucusundaki ekipmanın adını ve varsa görsellerini korur. PVP sürümünde bulunabilirliği ve özellikleri henüz bu sayfa için doğrulanmamıştır.
+
+## PVP bilgi durumu
+
+Eski level ve tier gereksinimleri, hasar ve bonus değerleri, deneyim ödülleri ve edinme yolları güncel PVP kuralı olarak aktarılmamıştır. Görseller önceki sürümden kalabilir.
+
+[Güncel silahlar rehberine dön]({{ '/Weapons/' | relative_url }}).

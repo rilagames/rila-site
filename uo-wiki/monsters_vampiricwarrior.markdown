@@ -1,13 +1,17 @@
 ---
 layout: default
-title: Vampiric Warrior (unavailable)
+title: Vampiric Savaşçısı (unavailable) (Arşiv)
 permalink: /vampiric-warrior/
-parent: Monsters
+parent: Yaratıklar
 ---
-# Vampiric Warrior
+# Vampiric Savaşçısı (unavailable)
 
-**Not included in the current warrior catalog.**
+**Önceki Rila kataloğundan görsel arşivi.**
 
-The current variants are Angel, Devil, Fire, Earth, Arcane, Lightning and Acid. Historical level, XP and Vampiric armor-part loot information has been retired from this page.
+Bu sayfa eski level sunucusundaki yaratığın adını ve varsa görsellerini korur. PVP sürümünde bulunabilirliği ve özellikleri henüz bu sayfa için doğrulanmamıştır.
 
-[See the current warriors]({{ '/Monsters/' | relative_url }}).
+## PVP bilgi durumu
+
+Eski level ve tier gereksinimleri, hasar ve bonus değerleri, deneyim ödülleri ve edinme yolları güncel PVP kuralı olarak aktarılmamıştır. Görseller önceki sürümden kalabilir.
+
+[Güncel yaratıklar rehberine dön]({{ '/Monsters/' | relative_url }}).

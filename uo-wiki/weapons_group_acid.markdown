@@ -1,32 +1,19 @@
 ---
 layout: default
-title: Acid Weapons
+title: Acid Silahları (Arşiv)
 permalink: /acid-weapons/
-parent: Weapons
+parent: Silahlar
 ---
-# Acid Weapons
-![Level]({{ '/assets/img/weapons_acid.png' | relative_url }} "Acid Weapons")
+# Acid Silahları
 
-Acid weapons trade direct damage for a guaranteed poison application on every successful hit against a susceptible enemy.
+**Önceki Rila kataloğundan görsel arşivi.**
 
-| Weapon | Base damage | Required level | Required STR |
-|---|---:|---:|---:|
-| Acid Kryss | 10 | 27 | 250 |
-| Bow of Acid (Acid Bow) | 10 | 27 | 250 |
+![Acid Silahları arşiv görseli]({{ '/assets/img/weapons_acid.png' | relative_url }})
 
-The damage shown is the weapon's base value; final hit damage depends on combat modifiers and the target's defenses.
+Bu sayfa eski level sunucusundaki ekipmanın adını ve varsa görsellerini korur. PVP sürümünde bulunabilirliği ve özellikleri henüz bu sayfa için doğrulanmamıştır.
 
-## Poison effect
+## PVP bilgi durumu
 
-- Every successful hit applies **Regular poison**. There is no random activation chance, Poisoning skill requirement or poison-charge cost.
-- Poison immunity still applies, including the Acid armor suit and creatures with applicable immunity.
-- A stronger poison already affecting the target is not weakened.
-- The poison follows the existing poison and cure rules.
+Eski level ve tier gereksinimleri, hasar ve bonus değerleri, deneyim ödülleri ve edinme yolları güncel PVP kuralı olarak aktarılmamıştır. Görseller önceki sürümden kalabilir.
 
-Bow of Acid fires without consuming arrows.
-
-## Availability
-
-No Acid weapon drop is currently configured for Acid Warrior.
-
-*Updated for the current Rila server on 25 October 2026.*
+[Güncel silahlar rehberine dön]({{ '/Weapons/' | relative_url }}).

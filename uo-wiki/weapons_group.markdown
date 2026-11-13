@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Weapons
+title: Silahlar
 permalink: /Weapons/
 has_children: true
 nav_order: 21
 ---
-# Weapons
-Here are the special weapons for Rila Ultima Online.
+# Silahlar
 
-NOTE
-{: .label .label-red }
+PVP silahlarının hasar değerleri, kullanım koşulları ve edinme yolları güncel sunucuya göre doğrulanmalıdır. Eski elemental silah tabloları ve level gereksinimleri güncel denge olarak kullanılmaz.
 
+## Hazırlık
 
-```
-Weapon speed based on characters dexterity stat. Damage based on weapons power and characters' strength stat.
-Some weapons needs minumum level or tier to equip!
-```
+Karakterinin kaynaklarını ve ekipmanını kontrol et. [Durum penceresi rehberini incele]({{ '/stat_system/' | relative_url }}).
+
+## Görsel arşivi
+
+Alt sayfalarda önceki Rila kataloğunun adları ve görselleri korunur. **Arşiv** işareti, bu içeriğin güncel PVP kataloğu olarak doğrulanmadığını belirtir.

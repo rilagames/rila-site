@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Air Elemental Weapons
+title: Air Elemental Silahları (Arşiv)
 permalink: /air-elemental/
-parent: Weapons
+parent: Silahlar
 ---
-# Air Elemental Weapons
-![Level]({{ '/assets/img/weapons_air.png' | relative_url }} "Air Elemental Weapons")
+# Air Elemental Silahları
 
-|Weapon  |Damage|
-|-|--|
-|  Air elemental sword |40
-|  Air elemental Mace |50
-|  Air elemental sword |60
+**Önceki Rila kataloğundan görsel arşivi.**
 
+![Air Elemental Silahları arşiv görseli]({{ '/assets/img/weapons_air.png' | relative_url }})
 
-```
-LOOT: Air elements
-```
+Bu sayfa eski level sunucusundaki ekipmanın adını ve varsa görsellerini korur. PVP sürümünde bulunabilirliği ve özellikleri henüz bu sayfa için doğrulanmamıştır.
+
+## PVP bilgi durumu
+
+Eski level ve tier gereksinimleri, hasar ve bonus değerleri, deneyim ödülleri ve edinme yolları güncel PVP kuralı olarak aktarılmamıştır. Görseller önceki sürümden kalabilir.
+
+[Güncel silahlar rehberine dön]({{ '/Weapons/' | relative_url }}).

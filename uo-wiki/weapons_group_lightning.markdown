@@ -1,23 +1,17 @@
 ---
 layout: default
-title: Lightning Weapons
+title: Lightning Silahları (Arşiv)
 permalink: /lightning-weapons/
-parent: Weapons
+parent: Silahlar
 ---
-# Lightning Weapons
+# Lightning Silahları
 
-Lightning weapons add 30 extra damage against players and 50 against NPCs after a successful hit. A matching Lightning suit blocks this extra damage.
+**Önceki Rila kataloğundan görsel arşivi.**
 
-| Weapon | Base damage | Required level | Required STR |
-|---|---:|---:|---:|
-| Lightning Elemental Sword | 35 | 27 | 250 |
-| Lightning Elemental Bow | 35 | 27 | 250 |
-| Lightning Elemental Mace | 40 | 45 | 400 |
-| Lightning Elemental Scythe | 30 | 45 | 400 |
-| Lightning Elemental Crossbow | 50 | 45 | 75 |
+Bu sayfa eski level sunucusundaki ekipmanın adını ve varsa görsellerini korur. PVP sürümünde bulunabilirliği ve özellikleri henüz bu sayfa için doğrulanmamıştır.
 
-Level requirements are checked by the server when equipping and attacking. Base damage is the weapon's configured damage, before combat calculations; it does not guarantee the same health loss on every hit.
+## PVP bilgi durumu
 
-The ranged weapons in this group do not require or consume arrows or bolts in Rila's Sphere56T profile. They are not currently assigned to a new NPC loot table.
+Eski level ve tier gereksinimleri, hasar ve bonus değerleri, deneyim ödülleri ve edinme yolları güncel PVP kuralı olarak aktarılmamıştır. Görseller önceki sürümden kalabilir.
 
-*Values checked against the current Rila server catalog on 25 October 2026.*
+[Güncel silahlar rehberine dön]({{ '/Weapons/' | relative_url }}).

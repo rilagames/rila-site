@@ -1,21 +1,23 @@
 ---
 layout: default
-title: New Player Helper Commands
+title: Başlangıç Rehberi
 permalink: /new-player-helper/
 nav_order: 2
 ---
-# New Player Helper
-![Question]({{ '/assets/img/newplayerhelper.png' | relative_url }} "Helper")
-![Question]({{ '/assets/img/question.gif' | relative_url }} "Helper")
+# Rila PVP’ye başlangıç
 
-```
-There is a little question mark on some of the menus you have seen. 
-It is for redirecting you to wiki link about that system.
+## İstemci ve erişim
 
-Or you can use these commands on the items or npcs if you dont have any idea about what they are.
+Güncel istemci paketini ve bağlantı talimatlarını [Rila Discord’dan](https://discord.gg/AyeAPKcMaV) takip et. Site geliştirme durumunu gösterir; bağlantı adresinin listelenmesi sunucunun herkese açık olduğunu belirtmez.
 
-.question
-.what
-.whatisthis
+## İlk hazırlık
 
-```
+1. Karakterinle giriş yap ve çantanı kontrol et.
+2. Üst çubuktaki **Profile** düğmesinden ekipman penceresini aç.
+3. Durum penceresinden can, mana, dayanıklılık ve ağırlığını kontrol et.
+4. [Güvenli Bölge]({{ '/safe-zone/' | relative_url }}) kurallarını oku.
+5. Test sırasında karşılaştığın sorunları ekiple paylaş.
+
+## Rehber hakkında
+
+Bu wiki Türkçe PVP bilgileri için hazırlanıyor. Arşiv olarak belirtilen eşya, yaratık ve binek görselleri önceki sunucuya aittir; eski sayısal değerler güncel PVP dengesi olarak sunulmaz.

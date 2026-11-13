@@ -1,33 +1,19 @@
 ---
 layout: default
-title: Devil Armor Suit
+title: Devil Zırhı (Arşiv)
 permalink: /devil-armor/
-parent: Armors
+parent: Zırhlar
 ---
-# Devil Armor Suit
+# Devil Zırhı
 
-![Devil Armor Suit in its corrected red color on the live server]({{ '/assets/img/armor_devil_live.webp' | relative_url }})
+**Önceki Rila kataloğundan görsel arşivi.**
 
-*Captured from the live Rila client on 25 October 2026, showing the corrected red suit in the character equipment window.*
+![Devil Zırhı arşiv görseli]({{ '/assets/img/armor_devil_live.webp' | relative_url }})
 
-| Property | Current value |
-|---|---|
-| Armor at full durability | 150 |
-| Required STR | 100 |
-| Maximum durability | 500 |
-| Wear level | To be decided |
-| Current temporary maximum level | No maximum level restriction |
-| Suit change cooldown | 4 seconds |
-| Item type | One armor suit |
+Bu sayfa eski level sunucusundaki ekipmanın adını ve varsa görsellerini korur. PVP sürümünde bulunabilirliği ve özellikleri henüz bu sayfa için doğrulanmamıştır.
 
-## Effect
+## PVP bilgi durumu
 
-Successful weapon hits that deal actual damage add 5 armor-piercing damage to the main target.
+Eski level ve tier gereksinimleri, hasar ve bonus değerleri, deneyim ödülleri ve edinme yolları güncel PVP kuralı olarak aktarılmamıştır. Görseller önceki sürümden kalabilir.
 
-## Wearing the suit
-
-Double-click this suit in your own backpack to equip it, or select it with the **ArmorWear** macro. The previous suit moves to your backpack. The worn item is shown in the paperdoll's **Armor Suit Slot**.
-
-You can cast spells while wearing this suit. To remove it, drag the worn item from the Armor Suit Slot into your backpack. After equipping a suit, wait 4 seconds before equipping another one.
-
-Armor falls as durability is lost; the table gives the value at full durability.
+[Güncel zırhlar rehberine dön]({{ '/Armors/' | relative_url }}).

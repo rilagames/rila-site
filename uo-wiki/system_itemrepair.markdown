@@ -1,14 +1,11 @@
 ---
 layout: default
-title: Item Repair System
+title: Eşya Tamiri
 permalink: /itemrepair-system/
 nav_order: 6
 ---
-# Item Repair System
+# Eşya tamiri
 
-![Level]({{ '/assets/img/damagedarmors.gif' | relative_url }} "Damageable Items")
+PVP sunucusunda kullanılacak tamir yöntemi, gerekli malzemeler ve ücretler henüz bu rehberde doğrulanmış değildir.
 
-NOTE
-{: .label .label-red }
-**WILL BE EXPLAINED SOON**
-
+Kesin bir tamir NPC’si, komutu veya fiyatı duyurulmadan eski sunucu tariflerini kullanma. Güncel yöntem ve koşullar doğrulandığında bu sayfaya eklenecektir.

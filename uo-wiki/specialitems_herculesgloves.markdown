@@ -1,33 +1,23 @@
 ---
 layout: default
-title: Gloves of Hercules
+title: Gloves of Hercules (Arşiv)
 permalink: /gloves-hercules/
-parent: Special Items
+parent: Özel Eşyalar
 ---
 # Gloves of Hercules
 
-![Level]({{ '/assets/img/gloves_hercules.png' | relative_url }} "Gloves of Hercules")
-![Level]({{ '/assets/img/gloves_hercules_1.png' | relative_url }} "Gloves of Hercules")
-![Level]({{ '/assets/img/gloves_hercules_2.png' | relative_url }} "Gloves of Hercules")
+**Önceki Rila kataloğundan görsel arşivi.**
 
-| Property | Current value |
-|---|---|
-| Required level | 42 |
-| Required STR | 0 |
-| STR bonus | +25 |
-| DEX bonus | +0 |
-| Armor bonus | +5 |
-| Durability | Infinite — does not wear out or break from use |
-| Versions | One version; no Mark tiers |
+![Gloves of Hercules arşiv görseli]({{ '/assets/img/gloves_hercules.png' | relative_url }})
 
-## Effect
+![Gloves of Hercules arşiv görseli]({{ '/assets/img/gloves_hercules_1.png' | relative_url }})
 
-Adds **+25 STR and +5 armor** while worn. The bonuses are removed when the item is unequipped.
+![Gloves of Hercules arşiv görseli]({{ '/assets/img/gloves_hercules_2.png' | relative_url }})
 
-## Wearing and availability
+Bu sayfa eski level sunucusundaki ekipmanın adını ve varsa görsellerini korur. PVP sürümünde bulunabilirliği ve özellikleri henüz bu sayfa için doğrulanmamıştır.
 
-Double-click this item in your own backpack to equip it. It uses the **gloves accessory slot**; another special item using the same slot is an alternative, not an additional stacking slot. Gloves and masks use accessory layers so they can be worn with the one-piece Armor Suit. The server checks the level and STR requirements.
+## PVP bilgi durumu
 
-No creature drop or crafting recipe is currently configured for this item. Staff can access the current catalog with `.RilaSpecialItems` or `.RilaOzelEsyalar`.
+Eski level ve tier gereksinimleri, hasar ve bonus değerleri, deneyim ödülleri ve edinme yolları güncel PVP kuralı olarak aktarılmamıştır. Görseller önceki sürümden kalabilir.
 
-*Updated from the current Rila Sphere56T server catalog on 25 October 2026. Existing artwork is illustrative; this update adds no new in-game screenshots.*
+[Güncel özel eşyalar rehberine dön]({{ '/special-items/' | relative_url }}).

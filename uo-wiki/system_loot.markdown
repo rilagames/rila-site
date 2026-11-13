@@ -1,15 +1,17 @@
 ---
 layout: default
-title: Loot System
+title: Ölüm ve Ganimet
 permalink: /loot-system/
 nav_order: 4
 ---
-# Loot System
+# Ölüm ve ganimet
 
-NOTE
-{: .label .label-red }
-```
-There will be no loot on our world, except Warzones. (Warzones will be explained soon)
-When you die your all items in your pack will be damaged. Check out "damageable items page" for more details.
-When you kill someone you will gain pvp points. (Pvp points will be explained soon)
-```
+Ölümde eşya kaybı, cesetten ganimet alma ve öldürme ödülleri PVP sunucusu için ayrıca doğrulanmalıdır. Eski sunucunun “ganimet yok”, “yalnızca Warzone’da ganimet” ve PVP puanı açıklamaları burada güncel kural olarak kullanılmaz.
+
+## Güvenli Bölge
+
+Trade Island kasabasındaki Safe Zone, çatışmaya karşı korunur. Bu koruma, diğer bölgelerde eşya kaybı olmayacağı anlamına gelmez.
+
+[Güvenli Bölge kurallarını incele]({{ '/safe-zone/' | relative_url }}).
+
+Kesin ölüm ve ganimet kuralları yayımlanana kadar test duyurularını takip et.
