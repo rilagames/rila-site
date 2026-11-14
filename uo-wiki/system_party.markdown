@@ -2,18 +2,14 @@
 layout: default
 title: Grup Sistemi
 permalink: /party-system/
-nav_order: 7
+nav_order: 9
 ---
-# Grup sistemi
+# Grup Sistemi
 
-Ultima Online’ın grup sistemiyle diğer oyuncularla birlikte hareket edebilirsin.
+Diğer oyuncularla birlikte hareket etmek için Ultima Online’ın grup sistemini kullanabilirsin.
 
-## Grup komutları
-
-- `/add`: gruba oyuncu davet et.
-- `/accept`: grup davetini kabul et.
+- `/add`: oyuncu davet et.
+- `/accept`: daveti kabul et.
 - `/quit`: gruptan ayrıl.
 
-## PVP için not
-
-Eski wikideki grup deneyimi paylaşımı ve level ilerlemesi bu rehberde PVP özelliği olarak sunulmaz. Özel grup bulucu ve ek ödül kuralları doğrulanınca ayrıca açıklanacaktır.
+Karakter penceresindeki **Grup** düğmesi de grup arayüzüne erişim sağlar.

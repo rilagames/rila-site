@@ -2,10 +2,10 @@
 layout: default
 title: Eşya Tamiri
 permalink: /itemrepair-system/
-nav_order: 6
+nav_order: 12
 ---
-# Eşya tamiri
+# Eşya Tamiri
 
-PVP sunucusunda kullanılacak tamir yöntemi, gerekli malzemeler ve ücretler henüz bu rehberde doğrulanmış değildir.
+Ekipmanının güncel durumunu oyun içinden kontrol et. Bu sistemin ayrıntılı koşulları doğrulandığında rehbere eklenecektir.
 
-Kesin bir tamir NPC’si, komutu veya fiyatı duyurulmadan eski sunucu tariflerini kullanma. Güncel yöntem ve koşullar doğrulandığında bu sayfaya eklenecektir.
+[Vendorlar ve hazırlık]({{ '/vendors/' | relative_url }}).

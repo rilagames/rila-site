@@ -2,22 +2,18 @@
 layout: default
 title: Başlangıç Rehberi
 permalink: /new-player-helper/
-nav_order: 2
+nav_order: 0.5
 ---
-# Rila PVP’ye başlangıç
-
-## İstemci ve erişim
-
-Güncel istemci paketini ve bağlantı talimatlarını [Rila Discord’dan](https://discord.gg/AyeAPKcMaV) takip et. Site geliştirme durumunu gösterir; bağlantı adresinin listelenmesi sunucunun herkese açık olduğunu belirtmez.
+# Başlangıç Rehberi
 
 ## İlk hazırlık
 
-1. Karakterinle giriş yap ve çantanı kontrol et.
-2. Üst çubuktaki **Profile** düğmesinden ekipman penceresini aç.
-3. Durum penceresinden can, mana, dayanıklılık ve ağırlığını kontrol et.
-4. [Güvenli Bölge]({{ '/safe-zone/' | relative_url }}) kurallarını oku.
-5. Test sırasında karşılaştığın sorunları ekiple paylaş.
+1. Güncel istemci ve erişim duyurularını [Discord’dan](https://discord.gg/AyeAPKcMaV) takip et.
+2. [Sınıf ve beceri seçimini]({{ '/classes/' | relative_url }}) incele.
+3. [Stat dağılımını]({{ '/stat_system/' | relative_url }}) oyun tarzına göre düzenle.
+4. [Vendor menülerinden]({{ '/vendors/' | relative_url }}) hazırlığını yap.
+5. [Güvenli Bölge]({{ '/safe-zone/' | relative_url }}) sınırlarını öğren.
 
-## Rehber hakkında
+## Ekranlarını tanı
 
-Bu wiki Türkçe PVP bilgileri için hazırlanıyor. Arşiv olarak belirtilen eşya, yaratık ve binek görselleri önceki sunucuya aittir; eski sayısal değerler güncel PVP dengesi olarak sunulmaz.
+[Yeni arayüz]({{ '/interface/' | relative_url }}) rehberinde üst menü, paperdoll ve nitelikler panelini; [emote rehberinde]({{ '/emotes/' | relative_url }}) ifade çarkını inceleyebilirsin.

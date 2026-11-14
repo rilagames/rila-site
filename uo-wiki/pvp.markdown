@@ -1,21 +1,24 @@
 ---
 layout: default
-title: PVP
+title: PVP Rehberi
 permalink: /pvp/
+nav_order: 1
 ---
-# Rila PVP rehberi
+# PVP Rehberi
 
-Rila PVP, oyuncular arası mücadeleye odaklanan Türkçe Ultima Online projesidir. Sunucu geliştirme aşamasındadır; erişim ve test duyuruları Discord üzerinden paylaşılır.
+Rila PVP, oyuncular arası mücadeleye odaklanan Türkçe Ultima Online projesidir.
 
-## Mücadeleye hazırlan
+## Hazırlan
 
-- [Güvenli Bölge]({{ '/safe-zone/' | relative_url }}) sınırlarını öğren.
-- [Karakter ekranından]({{ '/player-profile/' | relative_url }}) ekipmanını ve kaynaklarını kontrol et.
-- [STR, DEX ve INT]({{ '/stat_system/' | relative_url }}) ile can, mana ve dayanıklılık değerlerini takip et.
-- [Binek rehberini]({{ '/mounts/' | relative_url }}) incele.
+1. [Sınıfını ve becerilerini seç]({{ '/classes/' | relative_url }}).
+2. [Stat dağılımını düzenle]({{ '/stat_system/' | relative_url }}).
+3. [Vendor menülerinden hazırlığını yap]({{ '/vendors/' | relative_url }}).
+4. [Güvenli Bölge kurallarını öğren]({{ '/safe-zone/' | relative_url }}).
 
-## Güncel kurallar
+## Oyun içi iletişim
 
-Ölümde eşya kaybı, ödül oranları, beceri sınırları ve eşya dengeleri bu rehberde henüz kesinleştirilmiş kurallar olarak yayımlanmıyor. Test duyurularını takip et.
+[Emote wheel]({{ '/emotes/' | relative_url }}) ile karakterinin üzerinde ifadeler göster. Grup sistemiyle arkadaşlarınla birlikte hareket et.
 
-Eski level ve tier tabloları bu PVP rehberinin parçası değildir. Önceki sistemin deneyim tablosu ve level başına zırh bonusları güncel PVP kuralı olarak kullanılmaz.
+## İstatistikler
+
+[Top 10 ve çevrimiçi oyuncu alanları]({{ '/statistics/' | relative_url }}) hazırlandı; canlı veri henüz bağlı değil.

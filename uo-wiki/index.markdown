@@ -4,35 +4,29 @@ title: Wiki
 ---
 # Rila PVP oyuncu rehberi
 
-Rila’nın PVP dünyası, karakter ekranları ve bölge kuralları için Türkçe başvuru kaynağı. Bir konu seç veya arama alanını kullan.
+Karakterini hazırla, arayüzü tanı ve mücadeleye katıl. Oyun içinden ekran görüntüleriyle Türkçe Rila rehberi.
 
-## Buradan başla
+## Karakterini hazırla
 
-- [Başlangıç rehberi]({{ '/new-player-helper/' | relative_url }}): istemci, erişim ve ilk hazırlık.
-- [PVP rehberi]({{ '/pvp/' | relative_url }}): oyun yapısı ve güncel bilgi kapsamı.
-- [Güvenli Bölge]({{ '/safe-zone/' | relative_url }}): Trade Island sınırları ve korumalar.
-- [Karakter değerleri]({{ '/stat_system/' | relative_url }}): STR, DEX, INT ve kaynaklar.
-- [Karakter ekranı]({{ '/player-profile/' | relative_url }}): ekipman, çanta ve durum penceresi.
-- [Grup sistemi]({{ '/party-system/' | relative_url }}): birlikte oynamak için temel komutlar.
+- [Başlangıç]({{ '/new-player-helper/' | relative_url }}): ilk adımlar ve erişim.
+- [Sınıf ve beceri seçimi]({{ '/classes/' | relative_url }}): Savaşçı, Warlock ve Pure Mage.
+- [Stat seçimi ve nitelikler]({{ '/stat_system/' | relative_url }}): dağılım ekranı ve kaynakların.
+- [Vendorlar ve hazırlık]({{ '/vendors/' | relative_url }}): silah ve set alma menüleri.
+- [Binekler]({{ '/mounts/' | relative_url }}): binek hazırlığı.
 
-## Ekipman ve dünya
+## Oyun içinden
 
-- [Zırhlar]({{ '/Armors/' | relative_url }}): ekipman rehberi ve önceki katalog görselleri.
-- [Silahlar]({{ '/Weapons/' | relative_url }}): silah bilgileri ve arşiv.
-- [Özel eşyalar]({{ '/special-items/' | relative_url }}): aksesuar görselleri ve bilgi durumu.
-- [Yaratıklar]({{ '/Monsters/' | relative_url }}): yaratık arşivi.
-- [Binekler]({{ '/mounts/' | relative_url }}): güncel sistem ve eski ethereal arşivinin ayrımı.
-- [Ölüm ve ganimet]({{ '/loot-system/' | relative_url }}): yayımlanan kuralların kapsamı.
+- [Yeni arayüz]({{ '/interface/' | relative_url }}): üst menü ve karakter panelleri.
+- [Emote wheel]({{ '/emotes/' | relative_url }}): ifadelerle iletişim.
+- [Güvenli Bölge]({{ '/safe-zone/' | relative_url }}): sınırlar ve korumalar.
+- [Grup sistemi]({{ '/party-system/' | relative_url }}): birlikte hareket et.
 
-## Sunucu bilgileri
+## İstatistikler
 
-| Başlık | Bilgi |
-|---|---|
-| Sunucu türü | PVP |
-| Dil | Türkçe |
-| Durum | Geliştirme aşamasında |
-| Güvenli Bölge | Trade Island kasabası |
+**Çevrimiçi oyuncu: — · Yakında**
 
-Eski level ve tier tabloları PVP kuralı olarak kullanılmaz. Arşiv sayfalarındaki görseller, ilgili eşyanın güncel PVP sunucusunda edinilebilir olduğunu garanti etmez.
+**Top 10:** Sıralama alanı hazır; oyuncu adları ve puanları veri bağlantısı kurulduğunda yayımlanacak.
 
-Güncel erişim ve test duyuruları için [Rila Discord’a katıl](https://discord.gg/AyeAPKcMaV).
+[İstatistik sayfası]({{ '/statistics/' | relative_url }})
+
+Güncel duyurular için [Rila Discord’a katıl](https://discord.gg/AyeAPKcMaV).

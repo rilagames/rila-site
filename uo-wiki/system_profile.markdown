@@ -2,22 +2,16 @@
 layout: default
 title: Karakter Ekranı
 permalink: /player-profile/
-nav_order: 7
+nav_order: 4.5
 ---
-# Karakter ekranı
+# Karakter Ekranı
 
-Üst çubuktaki **Profile** düğmesi kendi karakterinin ekipman penceresini (paperdoll) açar.
+Üst menüdeki **Profil** düğmesi kendi karakterinin ekipman penceresini açar.
 
-## Ekipman ve aksesuarlar
+- **Yetenekler:** sınıf ve beceri seçimi.
+- **Nitelikler:** statlar, can, mana, dayanıklılık, zırh, altın ve ağırlık.
+- **Çanta simgesi:** envanter.
 
-Paperdoll kenarındaki kutular küpe, kolye, yüzük ve bilezik içindir. Talisman ve Armor Suit kenar kutuları kaldırılmıştır; normal ekipman çizimi devam eder.
+![Karakter nitelikleri paneli]({{ '/assets/img/pvp/durum-paneli.webp' | relative_url }})
 
-Çanta simgesinden çantanı açabilirsin. Eski **ArmorWear** ve **RilaSmartTarget** makroları kullanılmaz.
-
-## Kaynakları takip et
-
-[Durum penceresinde]({{ '/stat_system/' | relative_url }}) can, mana, dayanıklılık, zırh, altın ve taşıma ağırlığını kontrol edebilirsin. Üst çubukta Level düğmesi bulunmaz.
-
-## Büyü çubuğu
-
-İstemci, sunucunun gönderdiği büyü başlangıç ve bitiş bildirimleriyle büyü çubuğunu gösterir. Bu gösterge büyü süresini veya sonucunu değiştirmez.
+[Yeni arayüz rehberi]({{ '/interface/' | relative_url }}) · [Stat seçimi]({{ '/stat_system/' | relative_url }})

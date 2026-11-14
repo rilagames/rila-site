@@ -2,16 +2,12 @@
 layout: default
 title: Ölüm ve Ganimet
 permalink: /loot-system/
-nav_order: 4
+nav_order: 10
 ---
-# Ölüm ve ganimet
+# Ölüm ve Ganimet
 
-Ölümde eşya kaybı, cesetten ganimet alma ve öldürme ödülleri PVP sunucusu için ayrıca doğrulanmalıdır. Eski sunucunun “ganimet yok”, “yalnızca Warzone’da ganimet” ve PVP puanı açıklamaları burada güncel kural olarak kullanılmaz.
+Ölümde eşya kaybı ve öldürme ödülleri için güncel sunucu duyurularını ve oyun içi kuralları takip et. Bu sayfada henüz kesinleştirilmiş bir ganimet tablosu yayımlanmıyor.
 
-## Güvenli Bölge
+Trade Island kasabasındaki Safe Zone çatışmaya karşı korunur. Bu korumayı dünyanın diğer bölgeleri için geçerli kabul etme.
 
-Trade Island kasabasındaki Safe Zone, çatışmaya karşı korunur. Bu koruma, diğer bölgelerde eşya kaybı olmayacağı anlamına gelmez.
-
-[Güvenli Bölge kurallarını incele]({{ '/safe-zone/' | relative_url }}).
-
-Kesin ölüm ve ganimet kuralları yayımlanana kadar test duyurularını takip et.
+[Güvenli Bölge rehberi]({{ '/safe-zone/' | relative_url }}).
