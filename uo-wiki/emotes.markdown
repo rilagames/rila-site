@@ -12,4 +12,4 @@ Oyundayken **orta fare düğmesini basılı tutarak** emote wheel’i aç. İmle
 
 Seçilen ifade karakterin üzerinde görünür. Gösterim, görüş ve mesafe kontrolleriyle yakındaki oyunculara iletilir; art arda kullanımda kısa bir bekleme uygulanır.
 
-<!-- EMOTE_SCREENSHOT -->
+
