@@ -14,6 +14,8 @@ Karakterini hazırla, arayüzü tanı ve mücadeleye katıl. Oyun içinden ekran
 - [Vendorlar ve hazırlık]({{ '/vendors/' | relative_url }}): silah ve set alma menüleri.
 - [Binekler]({{ '/mounts/' | relative_url }}): binek hazırlığı.
 
+- [Soket sistemi]({{ '/sockets/' | relative_url }}): desteklenen silahlarını oyun tarzına göre özelleştir.
+
 ## Oyun içinden
 
 - [Yeni arayüz]({{ '/interface/' | relative_url }}): üst menü ve karakter panelleri.

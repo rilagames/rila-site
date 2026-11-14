@@ -16,7 +16,19 @@ Silah ve set hazırlığını Safe Zone’daki ilgili vendor menülerinden yapab
 
 ![Set vendoru arayüzünün render önizlemesi]({{ '/assets/img/pvp/set-vendoru.webp' | relative_url }})
 
-*Bu iki görsel, mevcut Rila PVP dialogları ve istemci çizim kurallarından üretilmiş önizlemelerdir. Oyun içi ekran görüntüsü değildir. İlk sayfa ve favori seçilmemiş durum gösterilir.*
+*Bu vendor görselleri, mevcut Rila PVP dialogları ve istemci çizim kurallarından üretilmiş önizlemelerdir. Oyun içi ekran görüntüsü değildir. Silah ve set menülerinde ilk sayfa, favoriler menüsünde örnek seçimler gösterilir.*
+
+## İksir vendoru
+
+![İksir vendoru render önizlemesi]({{ '/assets/img/pvp/iksir-vendoru.webp' | relative_url }})
+
+İksirler ve sarf malzemeleri aynı menüde bulunur. **Pot Yerlerini Kaydet** ve **Potları Yenile** seçenekleriyle hazırlığını düzenleyebilirsin.
+
+## Favoriler vendoru
+
+![Favoriler vendoru örnek seçimlerle render önizlemesi]({{ '/assets/img/pvp/favoriler-vendoru.webp' | relative_url }})
+
+Diğer vendorlarda yıldızla işaretlediğin seçenekleri burada bir arada görebilirsin. **Hepsini Al** toplu hazırlığı, **Favorileri Sıfırla** seçimleri temizlemeyi sağlar. Görseldeki seçimler örnektir; gerçek bir oyuncunun kaydı değildir.
 
 ## Menüyü aç
 
