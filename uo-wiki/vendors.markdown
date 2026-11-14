@@ -8,7 +8,15 @@ nav_order: 6
 
 Silah ve set hazırlığını Safe Zone’daki ilgili vendor menülerinden yapabilirsin. Bu rehber eşya eşya katalog yerine alışveriş arayüzünün kullanımını anlatır.
 
-<!-- VENDOR_SCREENSHOTS -->
+## Silah vendoru
+
+![Silah vendoru arayüzünün render önizlemesi]({{ '/assets/img/pvp/silah-vendoru.webp' | relative_url }})
+
+## Set vendoru
+
+![Set vendoru arayüzünün render önizlemesi]({{ '/assets/img/pvp/set-vendoru.webp' | relative_url }})
+
+*Bu iki görsel, mevcut Rila PVP dialogları ve istemci çizim kurallarından üretilmiş önizlemelerdir. Oyun içi ekran görüntüsü değildir. İlk sayfa ve favori seçilmemiş durum gösterilir.*
 
 ## Menüyü aç
 
