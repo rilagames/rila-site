@@ -1,9 +1,8 @@
-title: Rila PVP Wiki
-description: "Rila PVP Türkçe oyuncu rehberi: oyun dünyası, Güvenli Bölge, karakter ve ekipman bilgileri."
-baseurl: "/rila-site/wiki"
+title: Rila UO Wiki
+description: "The Rila Ultima Online level guide: progression, equipment, creatures and exploration."
 url: "https://rilagames.github.io"
+baseurl: "/rila-site/wiki"
+lang: en
 exclude:
   - Gemfile
   - Gemfile.lock
-
-lang: tr

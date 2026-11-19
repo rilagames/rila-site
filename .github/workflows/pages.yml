@@ -53,6 +53,7 @@ jobs:
           touch _pages/.nojekyll
           test -s _pages/index.html
           test -s _pages/wiki/index.html
+          python3 scripts/verify_site.py _pages
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _pages

@@ -1,17 +1,21 @@
 ---
 layout: default
-title: Karakter Ekranı
+title: Character Panels
 permalink: /player-profile/
-nav_order: 4.5
+nav_order: 7.5
 ---
-# Karakter Ekranı
+# Character Panels
 
-Üst menüdeki **Profil** düğmesi kendi karakterinin ekipman penceresini açar.
+Your character equipment window shows what you are wearing and provides access to character controls and your backpack.
 
-- **Yetenekler:** sınıf ve beceri seçimi.
-- **Nitelikler:** statlar, can, mana, dayanıklılık, zırh, altın ve ağırlık.
-- **Çanta simgesi:** envanter.
+## Character Status
 
-![Karakter nitelikleri paneli]({{ '/assets/img/pvp/durum-paneli.webp' | relative_url }})
+Check your current health and mana, stats, armor, gold and regeneration rates. Stat and regeneration values come from the server and change with level, equipment and character state.
 
-[Yeni arayüz rehberi]({{ '/interface/' | relative_url }}) · [Stat seçimi]({{ '/stat_system/' | relative_url }})
+## Progression and abilities
+
+The HUD progression display opens the level and stat allocation window. The skill tree lets you inspect the 64 classic Magery spells and the Mavi Hilal combat ability, then assign supported abilities to the HUD.
+
+Saved skill points are displayed for future progression; browsing the tree does not spend them.
+
+[Interface and shortcuts]({{ '/interface/' | relative_url }}) · [Stats and Regeneration]({{ '/stat_system/' | relative_url }})

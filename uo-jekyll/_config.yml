@@ -1,8 +1,7 @@
-title: Rila PVP
+title: Rila UO
 url: "https://rilagames.github.io"
 baseurl: "/rila-site"
+lang: en
 exclude:
   - Gemfile
   - Gemfile.lock
-
-lang: tr

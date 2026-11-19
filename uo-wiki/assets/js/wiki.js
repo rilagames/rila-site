@@ -6,7 +6,7 @@ const status = document.querySelector('#search-status');
 let indexPromise;
 let timer;
 let revision = 0;
-const normalize = text => text.toLocaleLowerCase('tr').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/ı/g, 'i');
+const normalize = text => text.toLocaleLowerCase('en').normalize('NFKD').replace(/[\u0300-\u036f]/g, '');
 form.addEventListener('submit', event => event.preventDefault());
 async function search() {
   const current = ++revision;
@@ -14,7 +14,7 @@ async function search() {
   list.replaceChildren();
   results.hidden = true;
   if (!query) { status.textContent = ''; return; }
-  status.textContent = 'Aranıyor…';
+  status.textContent = 'Searching…';
   try {
     if (!indexPromise) {
       indexPromise = fetch(form.dataset.index).then(response => {
@@ -29,7 +29,7 @@ async function search() {
       const title = normalize(page.title);
       const text = normalize(`${page.title} ${page.category} ${page.text}`);
       return { page, score: terms.every(term => text.includes(term)) ? 1 + terms.filter(term => title.includes(term)).length * 5 : 0 };
-    }).filter(item => item.score).sort((a,b) => b.score - a.score || a.page.title.localeCompare(b.page.title, 'tr'));
+    }).filter(item => item.score).sort((a,b) => b.score - a.score || a.page.title.localeCompare(b.page.title, 'en'));
     matches.slice(0,12).forEach(({ page }) => {
       const item = document.createElement('li');
       const link = document.createElement('a');
@@ -42,9 +42,9 @@ async function search() {
       list.append(item);
     });
     results.hidden = !matches.length;
-    status.textContent = matches.length ? `${matches.length} sonuç${matches.length > 12 ? ', ilk 12 sonuç gösteriliyor' : ''}.` : 'Sonuç bulunamadı. Bir eşya veya sistem adı dene.';
+    status.textContent = matches.length ? `${matches.length} result${matches.length === 1 ? '' : 's'}${matches.length > 12 ? ', showing the first 12' : ''}.` : 'No results. Try an item or system name.';
   } catch {
-    if (current === revision) status.textContent = 'Arama kullanılamıyor. Aşağıdaki konulara göz at.';
+    if (current === revision) status.textContent = 'Search is unavailable. Browse the topics below.';
   }
 }
 field.addEventListener('input', () => {

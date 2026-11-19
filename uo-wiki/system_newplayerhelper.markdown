@@ -1,19 +1,27 @@
 ---
 layout: default
-title: Başlangıç Rehberi
+title: Getting Started
 permalink: /new-player-helper/
-nav_order: 0.5
+nav_order: 2
 ---
-# Başlangıç Rehberi
+# Getting Started
 
-## İlk hazırlık
+Rila is an Ultima Online level shard built around character progression, special equipment and exploration.
 
-1. Güncel istemci ve erişim duyurularını [Discord’dan](https://discord.gg/AyeAPKcMaV) takip et.
-2. [Sınıf ve beceri seçimini]({{ '/classes/' | relative_url }}) incele.
-3. [Stat dağılımını]({{ '/stat_system/' | relative_url }}) oyun tarzına göre düzenle.
-4. [Vendor menülerinden]({{ '/vendors/' | relative_url }}) hazırlığını yap.
-5. [Güvenli Bölge]({{ '/safe-zone/' | relative_url }}) sınırlarını öğren.
+## Access
 
-## Ekranlarını tanı
+Join [Rila Discord](https://discord.gg/AyeAPKcMaV) for current access, client instructions and announcements. Public access details will be announced there.
 
-[Yeni arayüz]({{ '/interface/' | relative_url }}) rehberinde üst menü, paperdoll ve nitelikler panelini; [emote rehberinde]({{ '/emotes/' | relative_url }}) ifade çarkını inceleyebilirsin.
+## Your first steps
+
+1. Follow your level and XP in the HUD. Click its progression display to open the level window.
+2. Allocate earned stat points within the [base stat limits]({{ '/stat_system/' | relative_url }}).
+3. Set up your spell and potion shortcuts using the [interface guide]({{ '/interface/' | relative_url }}).
+4. Check a creature's required level before attacking. Browse [Monsters]({{ '/Monsters/' | relative_url }}) and equipment requirements.
+5. Explore to reveal the world, world map and minimap together.
+
+## In-game wiki links
+
+Use `.Wiki` and target a supported Rila weapon, armor item or warrior to open its matching wiki page. `.Wiki level` opens the level guide. Wiki buttons in supported panels also open the related topic.
+
+[Level System]({{ '/level-system/' | relative_url }}) · [Interface]({{ '/interface/' | relative_url }}) · [Exploration]({{ '/exploration/' | relative_url }})

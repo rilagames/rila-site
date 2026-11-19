@@ -1,23 +1,17 @@
 ---
 layout: default
-title: Soket Sistemi
+title: Socket Preview
 permalink: /sockets/
-nav_order: 3.5
+nav_order: 9
 ---
-# Oyun tarzına göre eşyalarını modla
+# Socket Preview
 
-Soket taşları, desteklenen silahları güç, çeviklik veya zekâ odaklı özelleştirmeni sağlar.
+The current level implementation provides an **empty-socket preview** on two separate test weapons: a katana with one socket and a halberd with two.
 
-## Taş ve silah seçimi
+## Inspecting sockets
 
-Taş kendi ana çantanda bulunmalıdır. Soket uyumlu silahını seçerek taşı boş bir yuvaya yerleştirirsin. Silah kendi elinde veya ana çantanda olmalıdır.
+Double-click a supported weapon while it is equipped or in your own backpack to inspect its empty slots. The character equipment window also shows the socket rings on supported weapons.
 
-## Boş yuvalar
+## Current scope
 
-Yuva sayısı silaha bağlıdır. Mevcut test uygulamasında bir ve iki yuvalı desteklenen silahlar bulunur. Tüm yuvalar doluysa taş harcanmaz.
-
-## Özellikler
-
-Mevcut taşlar STR, DEX veya INT özelliğine yöneliktir. Bunlar yalnızca desteklenen soket silahlarında çalışır; tüm eşyalarda kullanılabildiği anlamına gelmez.
-
-Sistem geliştirme aşamasındadır. Genel edinme yolları ve son denge değerleri ayrıca duyurulacaktır.
+Gem insertion, removal and socket stat bonuses are not implemented in this level version. These preview weapons do not change the damage or behavior of ordinary katanas and halberds. No general player acquisition route is listed.

@@ -2,33 +2,37 @@
 layout: home
 title: Wiki
 ---
-# Rila PVP oyuncu rehberi
+# The Rila field guide
 
-Karakterini hazırla, arayüzü tanı ve mücadeleye katıl. Oyun içinden ekran görüntüleriyle Türkçe Rila rehberi.
+Build your character from level 1 to 60. Find the rules for progression, equipment, creatures and exploration in one place.
 
-## Karakterini hazırla
+## Start your journey
 
-- [Başlangıç]({{ '/new-player-helper/' | relative_url }}): ilk adımlar ve erişim.
-- [Sınıf ve beceri seçimi]({{ '/classes/' | relative_url }}): Savaşçı, Warlock ve Pure Mage.
-- [Stat seçimi ve nitelikler]({{ '/stat_system/' | relative_url }}): dağılım ekranı ve kaynakların.
-- [Vendorlar ve hazırlık]({{ '/vendors/' | relative_url }}): silah ve set alma menüleri.
-- [Binekler]({{ '/mounts/' | relative_url }}): binek hazırlığı.
+- [Getting Started]({{ '/new-player-helper/' | relative_url }}): access and first steps.
+- [Level System]({{ '/level-system/' | relative_url }}): XP, rewards and titles.
+- [Stats and Regeneration]({{ '/stat_system/' | relative_url }}): base limits and resource recovery.
+- [Interface and Shortcuts]({{ '/interface/' | relative_url }}): the HUD, spells and potions.
+- [Party System]({{ '/party-system/' | relative_url }}): contribution and shared XP.
 
-- [Soket sistemi]({{ '/sockets/' | relative_url }}): desteklenen silahlarını oyun tarzına göre özelleştir.
+## Equipment and creatures
 
-## Oyun içinden
+- [Armor]({{ '/Armors/' | relative_url }}): sets, requirements and effects.
+- [Weapons]({{ '/Weapons/' | relative_url }}): special weapon families.
+- [Special Items]({{ '/special-items/' | relative_url }}): eleven accessories.
+- [Monsters]({{ '/Monsters/' | relative_url }}): warrior requirements and combat notes.
+- [Mounts]({{ '/mounts/' | relative_url }}): 268 ethereal mount types.
+- [Equipment Durability]({{ '/damageableitems-system/' | relative_url }}): unlimited durability on Rila special equipment.
 
-- [Yeni arayüz]({{ '/interface/' | relative_url }}): üst menü ve karakter panelleri.
-- [Emote wheel]({{ '/emotes/' | relative_url }}): ifadelerle iletişim.
-- [Güvenli Bölge]({{ '/safe-zone/' | relative_url }}): sınırlar ve korumalar.
-- [Grup sistemi]({{ '/party-system/' | relative_url }}): birlikte hareket et.
+## Explore and communicate
 
-## İstatistikler
+[Exploration]({{ '/exploration/' | relative_url }}) · [Emote Wheel]({{ '/emotes/' | relative_url }}) · [Character Panels]({{ '/player-profile/' | relative_url }}) · [Socket Preview]({{ '/sockets/' | relative_url }})
 
-**Çevrimiçi oyuncu: — · Yakında**
+| Rule | Current value |
+|---|---|
+| Ruleset | Level progression |
+| Maximum level | 60 |
+| Base STR / DEX / INT limits | 400 / 200 / 100 |
+| Ethereal mount catalog | 268 types |
+| Classic Magery | 64 spells; no reagents required |
 
-**Top 10:** Sıralama alanı hazır; oyuncu adları ve puanları veri bağlantısı kurulduğunda yayımlanacak.
-
-[İstatistik sayfası]({{ '/statistics/' | relative_url }})
-
-Güncel duyurular için [Rila Discord’a katıl](https://discord.gg/AyeAPKcMaV).
+For current access and announcements, [join Rila Discord](https://discord.gg/AyeAPKcMaV).

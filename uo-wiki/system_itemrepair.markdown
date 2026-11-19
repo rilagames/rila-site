@@ -1,11 +1,13 @@
 ---
 layout: default
-title: Eşya Tamiri
+title: Item Repair
 permalink: /itemrepair-system/
-nav_order: 12
+nav_order: 6
 ---
-# Eşya Tamiri
+# Item Repair
 
-Ekipmanının güncel durumunu oyun içinden kontrol et. Bu sistemin ayrıntılı koşulları doğrulandığında rehbere eklenecektir.
+The Rila special equipment listed in the armor, weapon and accessory catalogs has unlimited durability and does not need routine wear repairs.
 
-[Vendorlar ve hazırlık]({{ '/vendors/' | relative_url }}).
+Ordinary items still use their normal durability and repair conditions. Check the item tooltip before using a repair service or repair resource.
+
+See [Equipment Durability]({{ '/damageableitems-system/' | relative_url }}) for the covered equipment categories.
